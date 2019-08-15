@@ -1,4 +1,4 @@
-package com.example.customview;
+package com.rorbin.customview;
 
 import org.junit.Test;
 

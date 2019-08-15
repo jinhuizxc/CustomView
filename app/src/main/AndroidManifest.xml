@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.customview">
+    package="com.rorbin.customview">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.rorbin.customview.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,12 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".qqmenu.QQMenuActivity"/>
+        <activity android:name="com.rorbin.customview.qqmenu.QQMenuActivity"/>
+
+        <activity android:name="com.rorbin.customview.badgeview.BadgeViewActivity"
+            android:theme="@style/AppNoActionBarTheme"/>
+        <activity android:name="com.rorbin.customview.badgeview.ListViewActivity"/>
+        <activity android:name="com.rorbin.customview.badgeview.RecyclerViewActivity"/>
 
     </application>
 

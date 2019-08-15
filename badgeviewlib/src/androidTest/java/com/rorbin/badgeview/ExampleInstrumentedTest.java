@@ -1,4 +1,4 @@
-package com.example.customview;
+package com.rorbin.badgeview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.customview", appContext.getPackageName());
+        assertEquals("com.example.badgeviewlib.test", appContext.getPackageName());
     }
 }

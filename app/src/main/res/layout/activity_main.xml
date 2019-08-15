@@ -13,10 +13,17 @@
         android:layout_height="wrap_content"
         android:text="仿新版手机QQ底部动态按钮" />
 
+
     <Button
         android:id="@+id/bt_02"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="多特效的智能loadingView" />
+
+    <Button
+        android:id="@+id/bt_badge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BadgeView" />
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.customview.qqmenu;
+package com.rorbin.customview.qqmenu;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.blankj.utilcode.util.ToastUtils;
-import com.example.customview.R;
+import com.rorbin.customview.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
