@@ -1,4 +1,4 @@
-package com.rorbin.customview.badgeview;
+package com.example.customview.badgeview;
 
 import java.util.ArrayList;
 import java.util.List;

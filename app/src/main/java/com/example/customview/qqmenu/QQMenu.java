@@ -1,4 +1,4 @@
-package com.rorbin.customview.qqmenu;
+package com.example.customview.qqmenu;
 
 import android.content.Context;
 import android.support.annotation.DrawableRes;

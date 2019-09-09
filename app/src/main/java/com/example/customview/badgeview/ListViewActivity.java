@@ -1,4 +1,4 @@
-package com.rorbin.customview.badgeview;
+package com.example.customview.badgeview;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.rorbin.customview.R;
+import com.example.customview.R;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.rorbin.badgeview;
+package com.example.badgeview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

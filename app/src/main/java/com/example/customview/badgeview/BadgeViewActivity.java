@@ -1,4 +1,4 @@
-package com.rorbin.customview.badgeview;
+package com.example.customview.badgeview;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -26,7 +26,7 @@ import android.widget.SeekBar;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import com.rorbin.customview.R;
+import com.example.customview.R;
 
 import java.util.ArrayList;
 import java.util.List;

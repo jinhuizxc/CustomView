@@ -1,4 +1,4 @@
-package com.rorbin.customview;
+package com.example.badgeview;
 
 import org.junit.Test;
 

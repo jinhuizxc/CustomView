@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.rorbin.customview">
+    package="com.example.customview">
 
     <application
+        android:hardwareAccelerated="false"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,21 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.rorbin.customview.MainActivity">
+        <!--自定义view学习-->
+        <activity android:name=".customview.CustomViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+        <activity android:name=".MainActivity">
+           <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name="com.rorbin.customview.qqmenu.QQMenuActivity"/>
-
-        <activity android:name="com.rorbin.customview.badgeview.BadgeViewActivity"
-            android:theme="@style/AppNoActionBarTheme"/>
-        <activity android:name="com.rorbin.customview.badgeview.ListViewActivity"/>
-        <activity android:name="com.rorbin.customview.badgeview.RecyclerViewActivity"/>
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name=".qqmenu.QQMenuActivity" />
+        <activity
+            android:name=".badgeview.BadgeViewActivity"
+            android:theme="@style/AppNoActionBarTheme" />
+        <activity android:name=".badgeview.ListViewActivity" />
+        <activity android:name=".badgeview.RecyclerViewActivity" />
     </application>
 
 </manifest>
