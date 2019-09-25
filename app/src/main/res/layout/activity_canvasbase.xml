@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_Line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="画直线" />
+    <Button
+        android:id="@+id/bt_Lines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多条直线" />
+    <Button
+        android:id="@+id/bt_Point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点" />
+    <Button
+        android:id="@+id/bt_Points"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多个点" />
+    <Button
+        android:id="@+id/bt_Rect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="矩形" />
+    <Button
+        android:id="@+id/bt_RoundRect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="圆角矩形" />
+    <Button
+        android:id="@+id/bt_Circle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="圆形" />
+    <Button
+        android:id="@+id/bt_Oval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="椭圆" />
+    <Button
+        android:id="@+id/bt_Arc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="弧" />
+
+</LinearLayout>

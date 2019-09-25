@@ -38,6 +38,7 @@
             app:dot_tips_count="113"/>
 
         <com.example.dotview.DotTextView
+            android:id="@+id/tv_dot"
             style="@style/DotTextView"
             app:dot_gravity="center_vertical"
             app:dot_horizontal_padding="12dp"

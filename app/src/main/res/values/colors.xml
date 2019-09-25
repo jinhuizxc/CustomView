@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#E91E63</color>
+    <!--导航栏颜色-->
+    <color name="colorPrimary">#2196F3</color>
+    <!--状态栏-->
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="color_01">#ff00ff</color>
+
 </resources>

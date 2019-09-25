@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_line_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="直线路径" />
+
+        <Button
+            android:id="@+id/bt_rect_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="矩形路径" />
+
+        <Button
+            android:id="@+id/bt_roundrect_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="圆角矩形路径" />
+
+        <Button
+            android:id="@+id/bt_circle_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="圆形路径" />
+
+        <Button
+            android:id="@+id/bt_oval_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="椭圆路径" />
+
+        <Button
+            android:id="@+id/bt_arc_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="弧形路径" />
+
+        <Button
+            android:id="@+id/bt_quadTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="线段轨迹（void quadTo (float x1, float y1, float x2, float y2)）待补充" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="文字" />
+
+        <Button
+            android:id="@+id/bt_paint_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="绘图样式的区别" />
+
+        <Button
+            android:id="@+id/bt_paint_style1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="文字样式设置及倾斜度正负区别" />
+
+        <Button
+            android:id="@+id/bt_paint_style2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="水平拉伸设置" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="canvas绘图方式" />
+
+        <Button
+            android:id="@+id/bt_canvas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="普通水平绘制" />
+
+        <Button
+            android:id="@+id/bt_pos_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="指定文字位置" />
+
+        <Button
+            android:id="@+id/bt_textOnPath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="沿路径绘制" />
+
+        <Button
+            android:id="@+id/bt_Typeface"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="字体样式设置" />
+
+        <Button
+            android:id="@+id/bt_customTypeface"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自字义字体" />
+
+    </LinearLayout>
+
+
+</ScrollView>

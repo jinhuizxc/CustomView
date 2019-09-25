@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="2000"
+    android:fillAfter="true"
+    android:fromXDelta="0"
+    android:fromYDelta="0"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:toXDelta="-200"
+    android:toYDelta="-200" />
+
+    <!--把控件从（0，0）平移到（-200，-200）的位置，保持结束时状态不变，使用不同插值器。-->

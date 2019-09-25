@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/scale"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="21dp"
+        android:background="#ff00ff"
+        android:text="hello_world"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/bt_alpha_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="37dp"
+        android:layout_toStartOf="@+id/bt_rotate_anim"
+        android:text="alpha anim" />
+
+    <Button
+        android:id="@+id/bt_scale_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_alpha_anim"
+        android:layout_alignBottom="@+id/bt_alpha_anim"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/tv"
+        android:layout_marginStart="23dp"
+        android:text="scale anim" />
+
+    <Button
+        android:id="@+id/bt_translate_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bt_scale_anim"
+        android:layout_marginTop="29dp"
+        android:layout_toStartOf="@+id/bt_rotate_anim"
+        android:text="translate anim" />
+
+    <Button
+        android:id="@+id/bt_rotate_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/bt_scale_anim"
+        android:layout_alignTop="@+id/bt_translate_anim"
+        android:text="rotate anim" />
+
+    <Button
+        android:id="@+id/bt_set_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bt_translate_anim"
+        android:layout_marginTop="28dp"
+        android:layout_toStartOf="@+id/bt_interpolator"
+        android:text="set anim" />
+
+    <Button
+        android:id="@+id/bt_interpolator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_set_anim"
+        android:layout_alignBottom="@+id/bt_set_anim"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/bt_rotate_anim"
+        android:text="interpolator" />
+</RelativeLayout>

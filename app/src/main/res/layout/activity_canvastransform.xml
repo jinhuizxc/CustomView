@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="平移（translate）" />
+    <Button
+        android:id="@+id/bt_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="屏幕显示与Canvas的关系" />
+    <Button
+        android:id="@+id/bt_Rotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="旋转（Rotate）" />
+
+    <Button
+        android:id="@+id/bt_scale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="缩放（scale）" />
+    <Button
+        android:id="@+id/bt_skew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扭曲（skew）" />
+    <Button
+        android:id="@+id/bt_clip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="裁剪画布（clip系列函数）" />
+    <Button
+        android:id="@+id/bt_save_restore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="画布的保存与恢复（save()、restore()）" />
+    <Button
+        android:id="@+id/bt_more_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 多次利用Save（）、Restore（）" />
+
+
+</LinearLayout>

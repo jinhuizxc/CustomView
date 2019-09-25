@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/addlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加list数据" />
+
+    <!--LayoutAnimation的xml实现方式-->
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutAnimation="@anim/layout_animation" />
+
+    <!--LayoutAnimation的代码的实现方式-->
+    <!--<ListView-->
+    <!--android:id="@+id/listview"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--/>-->
+
+
+</LinearLayout>
+

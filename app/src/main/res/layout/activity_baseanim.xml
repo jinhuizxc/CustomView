@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".step1.baseanim.BaseAnimActivity">
+
+
+    <Button
+        android:id="@+id/alpha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="21dp"
+        android:text="alpha" />
+
+    <Button
+        android:id="@+id/scale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/alpha"
+        android:layout_alignBottom="@+id/alpha"
+        android:layout_toEndOf="@+id/alpha"
+        android:text="scale" />
+
+    <Button
+        android:id="@+id/rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/scale"
+        android:layout_alignBottom="@+id/scale"
+        android:layout_toEndOf="@+id/scale"
+        android:text="rotate" />
+
+    <Button
+        android:id="@+id/trans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rotate"
+        android:layout_alignBottom="@+id/rotate"
+        android:layout_toEndOf="@+id/rotate"
+        android:text="trans" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/scale"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="21dp"
+        android:background="#ff00ff"
+        android:text="hello_world"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/alpha"
+        android:layout_alignTop="@+id/tv"
+        android:text="set" />
+
+    <Button
+        android:id="@+id/splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/set"
+        android:layout_below="@+id/set"
+        android:text="渐变" />
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_drawText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="canvas.drawText()" />
+
+    <Button
+        android:id="@+id/bt_setTextAlign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="paint.setTextAlign" />
+
+    <Button
+        android:id="@+id/bt_adtb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="drawText的四线格与FontMetrics" />
+
+    <Button
+        android:id="@+id/bt_what"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="所绘文字宽度、高度和最小矩形获取" />
+
+    <Button
+        android:id="@+id/bt_write_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="给定左上顶点绘图" />
+
+    <Button
+        android:id="@+id/bt_write_center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="给定中间线位置绘图" />
+</LinearLayout>

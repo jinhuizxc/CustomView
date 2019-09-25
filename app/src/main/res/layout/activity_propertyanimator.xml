@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+        <Button
+            android:id="@+id/bt_doAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="基本动画" />
+        <Button
+            android:id="@+id/bt_doAnimatorListener"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动画监听" />
+        <Button
+            android:id="@+id/bt_clone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="克隆" />
+        <Button
+            android:id="@+id/bt_ofObject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OfObject" />
+        <Button
+            android:id="@+id/bt_doArgbAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ArgbAnimation" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ObjectAnimation效果演示"/>
+        <Button
+            android:id="@+id/bt_pointAnim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PointAnim" />
+        <Button
+            android:id="@+id/bt_alpha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="改变透明度" />
+        <Button
+            android:id="@+id/bt_rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旋转效果" />
+        <Button
+            android:id="@+id/bt_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="背景颜色" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="Hello qijian" />
+
+    <Button
+        android:id="@+id/bt_cancel_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="cancel anim" />
+    <Button
+        android:id="@+id/bt_cancel_clone"
+        android:layout_below="@+id/bt_cancel_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="cancel clone" />
+
+    <com.example.customview.step1.view.MyPointView
+        android:id="@+id/pointview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

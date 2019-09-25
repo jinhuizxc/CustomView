@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_playSequentially"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="playSequentially" />
+
+        <Button
+            android:id="@+id/btn_playTogether"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="playTogether" />
+
+        <Button
+            android:id="@+id/btn_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="playSequentially,playTogether真正意义" />
+
+
+        <Button
+            android:id="@+id/btn_forever"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="实现无限循环动画" />
+
+        <Button
+            android:id="@+id/btn_free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="自由设置动画顺序" />
+
+        <Button
+            android:id="@+id/btn_free2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="AnimatorSet.Builder函数2" />
+        <Button
+            android:id="@+id/btn_doListenerAnimation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="AnimatorSet监听器(可cancle)" />
+
+        <Button
+            android:id="@+id/btn_doAnimatorSetSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="概述及简单示例" />
+        <Button
+            android:id="@+id/btn_dosetTarget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="setTarget(Object target)示例" />
+
+        <Button
+            android:id="@+id/btn_setStartDelay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="setStartDelay" />
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="cancel anim" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="30dp"
+        android:background="#ff00ff"
+        android:padding="10dp"
+        android:text="textview1" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#ffff00"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="tv2" />
+
+
+</RelativeLayout>
+

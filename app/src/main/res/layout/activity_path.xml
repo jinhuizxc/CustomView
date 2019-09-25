@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_sin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="示例：正弦函数" />
+    <Button
+        android:id="@+id/bt_gestures1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="手势轨迹(实现方式一、二)" />
+
+    <Button
+        android:id="@+id/bt_waveView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="水波纹效果" />
+    <Button
+        android:id="@+id/bt_rQuadTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用rQuadTo实现波浪线" />
+
+</LinearLayout>

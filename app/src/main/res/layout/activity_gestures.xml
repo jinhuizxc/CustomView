@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_reset1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="方式一(reset)" />
+
+    <com.example.customview.step2.path.gestures.Gestures1View
+        android:id="@+id/gestures1View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/bt_reset2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="方式二(reset)" />
+
+    <com.example.customview.step2.path.gestures.Gestures2View
+        android:id="@+id/gestures2View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="概述及基本图形绘制" />
+    <Button
+        android:id="@+id/bt_path_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="路径及文字" />
+    <Button
+        android:id="@+id/bt_range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="区域（Range）" />
+    <Button
+        android:id="@+id/bt_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="canvas变换与操作" />
+    <Button
+        android:id="@+id/bt_drawText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="drawText()详解" />
+    <Button
+        android:id="@+id/bt_Path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Path之贝塞尔曲线和手势轨迹、水波纹效果" />
+    <Button
+        android:id="@+id/bt_Paths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Path之函数大汇总" />
+
+</LinearLayout>

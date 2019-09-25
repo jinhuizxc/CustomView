@@ -9,7 +9,6 @@ import com.blankj.utilcode.util.ActivityUtils;
 import com.blankj.utilcode.util.ToastUtils;
 import com.example.customview.activity.DotViewActivity;
 import com.example.customview.badgeview.BadgeViewActivity;
-import com.example.customview.customview.CustomViewActivity;
 import com.example.customview.qqmenu.QQMenuActivity;
 
 import butterknife.BindView;
@@ -31,6 +30,16 @@ import butterknife.OnClick;
  * <p>
  * 支持自由定制外观、拖拽消除的MaterialDesign风格Android BadgeView
  * https://github.com/qstumn/BadgeView
+ *
+ * Android自定义控件三部曲文章索引
+ * https://blog.csdn.net/harvic880925/article/details/50995268
+ *
+ * https://github.com/vipulasri/Timeline-View
+ * 他是通过自定义View来实现的，大家也可以尝试通过RecyclerView的ItemDecoration来实现出来。
+ *
+ *
+ * 将此前写的资源整理下，整合资源;
+ *
  */
 
 public class MainActivity extends AppCompatActivity {
@@ -67,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                 ActivityUtils.startActivity(BadgeViewActivity.class);
                 break;
             case R.id.btn_custom_study:
-                ActivityUtils.startActivity(CustomViewActivity.class);
+                ActivityUtils.startActivity(CustomStudyActivity.class);
                 break;
             case R.id.btn_dot:
                 ActivityUtils.startActivity(DotViewActivity.class);

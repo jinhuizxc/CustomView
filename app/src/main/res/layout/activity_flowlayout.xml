@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    tools:context=".CustomStudyActivity"
+    android:orientation="vertical">
+
+    <com.example.customview.step3.flowLayout.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ff0000"
+            android:text="第一个VIEW" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#00ff00"
+            android:text="第二个VIEW" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#0000ff"
+            android:text="第三个VIEW" />
+
+    </com.example.customview.step3.flowLayout.FlowLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <com.example.customview.step3.flowLayout.FlowLayoutSimple
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_01">
+
+            <TextView
+                style="@style/text_flag_01"
+                android:background="@drawable/flag_03"
+                android:text="Welcome"
+                android:textColor="#43BBE7" />
+
+            <TextView
+                style="@style/text_flag_01"
+                android:background="@drawable/flag_03"
+                android:text="IT工程师"
+                android:textColor="#43BBE7" />
+
+            <TextView
+                style="@style/text_flag_01"
+                android:background="@drawable/flag_03"
+                android:text="我真是可以的"
+                android:textColor="#43BBE7" />
+
+            <TextView
+                style="@style/text_flag_01"
+                android:background="@drawable/flag_03"
+                android:text="你觉得呢"
+                android:textColor="#43BBE7" />
+
+            <TextView
+                style="@style/text_flag_01"
+                android:background="@drawable/flag_03"
+                android:text="不要只知道挣钱"
+                android:textColor="#43BBE7" />
+
+            <TextView
+                style="@style/text_flag_01"
+                android:background="@drawable/flag_03"
+                android:text="努力ing"
+                android:textColor="#43BBE7" />
+
+            <TextView
+                style="@style/text_flag_01"
+                android:background="@drawable/flag_03"
+                android:text="mine"
+                android:textColor="#43BBE7" />
+
+            <TextView
+                style="@style/text_flag_01"
+                android:background="@drawable/flag_03"
+                android:text="test"
+                android:textColor="#43BBE7" />
+
+            <TextView
+                style="@style/text_flag_01"
+                android:background="@drawable/flag_03"
+                android:text="I thick i can"
+                android:textColor="#43BBE7" />
+
+            <TextView
+                style="@style/text_flag_01"
+                android:background="@drawable/flag_03"
+                android:text="I thick i can"
+                android:textColor="#43BBE7" />
+
+        </com.example.customview.step3.flowLayout.FlowLayoutSimple>
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/bt_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Animation(视图动画)之基础动画" />
+
+    <Button
+        android:id="@+id/bt_interpolator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interpolator插值器" />
+
+    <Button
+        android:id="@+id/bt_xml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Animation(视图动画)之动态生成动画" />
+    <Button
+        android:id="@+id/bt_valueAnimator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Property Animator（属性动画）" />
+    <Button
+        android:id="@+id/bt_ofPropertyValuesHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Property Animator（属性动画）之PropertyValuesHolder与Keyframe" />
+
+    <Button
+        android:id="@+id/bt_animatorSet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="联合动画的代码实现" />
+    <Button
+        android:id="@+id/bt_xml_Value_ObjectAnimator_AnimatorSet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="联合动画的XML实现与使用示例" />
+    <Button
+        android:id="@+id/bt_layout_gridLayoutAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="layoutAnimation与gridLayoutAnimation" />
+    <Button
+        android:id="@+id/bt_animateLayoutChanges_LayoutTransition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="animateLayoutChanges与LayoutTransition" />
+    <Button
+        android:id="@+id/bt_listView_Item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实现ListView Item进入动画" />
+
+
+
+</LinearLayout>

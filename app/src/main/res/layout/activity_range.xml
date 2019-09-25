@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="构造Region" />
+
+    <Button
+        android:id="@+id/bt_no_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="构造Region-未开启Set函数时" />
+
+    <Button
+        android:id="@+id/bt_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="构造Region-开启Set函数时" />
+
+    <Button
+        android:id="@+id/bt_SetPath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用SetPath()构造不规则区域" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="矩形集枚举区域——RegionIterator类" />
+
+    <Button
+        android:id="@+id/bt_intersect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="交集" />
+
+    <Button
+        android:id="@+id/bt_difference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="补集" />
+
+    <Button
+        android:id="@+id/bt_replace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="替换" />
+
+    <Button
+        android:id="@+id/bt_reverse_difference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="反转补集" />
+    <Button
+        android:id="@+id/bt_union"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="并集" />
+    <Button
+        android:id="@+id/bt_xor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="异并集" />
+
+    <Button
+        android:id="@+id/bt_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="其它一些方法" />
+
+</LinearLayout>
