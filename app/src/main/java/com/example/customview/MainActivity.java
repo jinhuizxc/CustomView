@@ -7,6 +7,7 @@ import android.widget.Button;
 
 import com.blankj.utilcode.util.ActivityUtils;
 import com.blankj.utilcode.util.ToastUtils;
+import com.example.customview.activity.DotViewActivity;
 import com.example.customview.badgeview.BadgeViewActivity;
 import com.example.customview.customview.CustomViewActivity;
 import com.example.customview.qqmenu.QQMenuActivity;
@@ -42,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
     Button btBadge;
     @BindView(R.id.btn_custom_study)
     Button btnCustomStudy;
+    @BindView(R.id.btn_dot)
+    Button btnDot;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.bt_01, R.id.bt_02, R.id.bt_badge, R.id.btn_custom_study})
+    @OnClick({R.id.bt_01, R.id.bt_02, R.id.bt_badge, R.id.btn_custom_study,
+    R.id.btn_dot})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_01:
@@ -64,6 +68,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_custom_study:
                 ActivityUtils.startActivity(CustomViewActivity.class);
+                break;
+            case R.id.btn_dot:
+                ActivityUtils.startActivity(DotViewActivity.class);
                 break;
         }
     }

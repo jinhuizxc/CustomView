@@ -8,6 +8,12 @@
     android:orientation="vertical">
 
     <Button
+        android:id="@+id/btn_custom_study"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CustomView学习" />
+
+    <Button
         android:id="@+id/bt_01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,10 +33,12 @@
         android:text="BadgeView" />
 
     <Button
-        android:id="@+id/btn_custom_study"
+        android:id="@+id/btn_dot"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CustomView学习" />
+        android:text="支持对任意View添加未读消息红点" />
+
+
 
 
 </LinearLayout>
