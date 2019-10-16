@@ -10,6 +10,7 @@ import android.view.ViewGroup;
  * Created by jinhui on 2019/1/10.
  */
 public class FlowLayoutSimple extends ViewGroup {
+
     public FlowLayoutSimple(Context context) {
         super(context);
     }

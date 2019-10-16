@@ -24,6 +24,9 @@ import butterknife.OnClick;
  * Email:1004260403@qq.com
  * <p>
  * 自定义视图篇
+ *
+ * 《自定义控件三部曲视图篇（一）——测量与布局》
+ * https://blog.csdn.net/harvic880925/article/details/47029169
  */
 
 public class Step3Activity extends AppCompatActivity {
@@ -36,10 +39,12 @@ public class Step3Activity extends AppCompatActivity {
     Button btnRv;
     @BindView(R.id.btn_itemDecoration)
     Button btnItemDecoration;
-    @BindView(R.id.btn_layout)
-    Button btnLayout;
+    @BindView(R.id.btn_layoutManager)
+    Button btnLayoutManager;
     @BindView(R.id.btn_recycle)
     Button btnRecycle;
+    @BindView(R.id.btn_layout)
+    Button btnLayout;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -49,9 +54,12 @@ public class Step3Activity extends AppCompatActivity {
     }
 
     @OnClick({R.id.bt_flowLayout, R.id.bt_waterFallLayout, R.id.btn_rv,
-            R.id.btn_itemDecoration, R.id.btn_layout, R.id.btn_recycle})
+            R.id.btn_itemDecoration, R.id.btn_layoutManager, R.id.btn_recycle, R.id.btn_layout})
     public void onViewClicked(View view) {
         switch (view.getId()) {
+            case R.id.btn_layout:
+                ActivityUtils.startActivity(FlowLayoutActivity.class);
+                break;
             case R.id.bt_flowLayout:
                 // startActivity                  : 启动 Activity
                 ActivityUtils.startActivity(FlowLayoutActivity.class);
@@ -68,7 +76,7 @@ public class Step3Activity extends AppCompatActivity {
             case R.id.btn_itemDecoration:
                 ActivityUtils.startActivity(RvItemDecorationActivity.class);
                 break;
-            case R.id.btn_layout:
+            case R.id.btn_layoutManager:
                 ActivityUtils.startActivity(RvLayoutManagerActivity.class);
                 break;
         }
