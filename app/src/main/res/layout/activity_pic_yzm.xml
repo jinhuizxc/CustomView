@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.customview.yzm.pic.CustomView
+        android:id="@+id/pic_yzm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        custom:bgColor="#FF27FF28"
+        custom:text="J2RdWQG"
+        custom:textColor="#ff0000"
+        custom:textSize="36dp" />
+
+</RelativeLayout>

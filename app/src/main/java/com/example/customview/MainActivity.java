@@ -9,6 +9,8 @@ import com.blankj.utilcode.util.ActivityUtils;
 import com.blankj.utilcode.util.ToastUtils;
 import com.example.customview.activity.DotViewActivity;
 import com.example.customview.badgeview.BadgeViewActivity;
+import com.example.customview.cloudmusic.CloudActivity;
+import com.example.customview.yzm.pic.PicYzmActivity;
 import com.example.customview.qqmenu.QQMenuActivity;
 
 import butterknife.BindView;
@@ -54,6 +56,10 @@ public class MainActivity extends AppCompatActivity {
     Button btnCustomStudy;
     @BindView(R.id.btn_dot)
     Button btnDot;
+    @BindView(R.id.btn_pic_yzm)
+    Button btnPicYzm;
+    @BindView(R.id.btn_music)
+    Button btnMusic;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,10 +68,13 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.bt_01, R.id.bt_02, R.id.bt_badge, R.id.btn_custom_study,
-    R.id.btn_dot})
+    @OnClick({R.id.bt_01, R.id.bt_02, R.id.bt_badge,
+            R.id.btn_custom_study, R.id.btn_dot, R.id.btn_pic_yzm, R.id.btn_music})
     public void onViewClicked(View view) {
         switch (view.getId()) {
+            case R.id.btn_pic_yzm:
+                ActivityUtils.startActivity(PicYzmActivity.class);
+                break;
             case R.id.bt_01:
                 ActivityUtils.startActivity(QQMenuActivity.class);
                 break;
@@ -80,6 +89,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_dot:
                 ActivityUtils.startActivity(DotViewActivity.class);
+                break;
+            case R.id.btn_music:
+                ActivityUtils.startActivity(CloudActivity.class);
                 break;
         }
     }

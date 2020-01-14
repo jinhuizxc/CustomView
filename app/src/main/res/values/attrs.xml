@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="text" format="string" />
+    <attr name="textColor" format="color" />
+    <attr name="textSize" format="dimension" />
+    <attr name="bgColor" format="color" />
+
+    <declare-styleable name="CustomView">
+        <attr name="text" />
+        <attr name="textColor" />
+        <attr name="textSize" />
+        <attr name="bgColor" />
+    </declare-styleable>
+
+    <declare-styleable name="CloudMusicLoadingView">
+        <!-- 音轨数量 -->
+        <attr name="cmlv_rail_count" format="integer" />
+        <!-- 音轨的颜色 -->
+        <attr name="cmlv_rail_color" format="color" />
+        <!-- 音轨线宽粗细 -->
+        <attr name="cmlv_line_width" format="integer|float|dimension" />
+    </declare-styleable>
+
+</resources>

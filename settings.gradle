@@ -1,1 +1,1 @@
-include ':app', ':badgeviewlib', ':dotview'
+include ':app', ':badgeviewlib', ':dotview', ':verificationviewlibrary'

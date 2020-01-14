@@ -38,6 +38,18 @@
         android:layout_height="wrap_content"
         android:text="支持对任意View添加未读消息红点" />
 
+    <Button
+        android:id="@+id/btn_pic_yzm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义View之随机生成图片验证码" />
+
+    <Button
+        android:id="@+id/btn_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 仿网易云音乐 音轨跳动效果" />
+
 
 
 

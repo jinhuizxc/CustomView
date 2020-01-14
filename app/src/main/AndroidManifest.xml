@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-
+        <activity android:name=".yzm.pic.PicYzmActivity"/>
         <activity android:name=".activity.DotViewActivity" /> <!-- 自定义view学习 -->
 
         <activity android:name=".MainActivity">
@@ -22,9 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".CustomStudyActivity"/>
-
+        <activity android:name=".CustomStudyActivity" />
         <activity android:name=".qqmenu.QQMenuActivity" />
         <activity
             android:name=".badgeview.BadgeViewActivity"
@@ -32,45 +30,43 @@
         <activity android:name=".badgeview.ListViewActivity" />
         <activity android:name=".badgeview.RecyclerViewActivity" />
         <activity android:name=".step3.recyclerview.itemdecoration.RvItemDecorationActivity" />
-
-        <activity android:name=".step1.interpolator.InterpolatorActivity"/>
-        <activity android:name=".step1.baseanim.SecondActivity"/>
-        <activity android:name=".step1.baseanim.BaseAnimActivity"/>
-        <activity android:name=".step1.animation.AnimationActivity"/>
-        <activity android:name=".step1.propertyanimator.PropertyAnimatorActivity"/>
-        <activity android:name=".step1.propertyvaluesholder.OfPropertyValuesHolderActivity"/>
-        <activity android:name=".step1.animatorset.AnimatorSetActivity"/>
-        <activity android:name=".step1.xml.xml_Value_ObjectAnimator_AnimatorSet"/>
-        <activity android:name=".step1.layoutgridlayoutanimation.LayoutGridLayoutAnimationActivity"/>
-        <activity android:name=".step1.layoutgridlayoutanimation.LayoutAnimationActivity"/>
-        <activity android:name=".step1.layoutgridlayoutanimation.LayoutAnimationJavaActivity"/>
-        <activity android:name=".step1.layoutgridlayoutanimation.GridAnimationActivity"/>
-        <activity android:name=".step1.layoutgridlayoutanimation.GridAnimationJavaActivity"/>
-        <activity android:name=".step1.layoutgridlayoutanimation.AnimateLayoutChangesLayoutTransitionActivity"/>
-        <activity android:name=".step1.layoutgridlayoutanimation.listviewitem.ListViewItemActivity"/>
-        <activity android:name=".step2.Step2Activity"/>
-        <activity android:name=".step1.Step1Activity"/>
-        <activity android:name=".step3.Step3Activity"/>
-        <activity android:name=".step2.canvasbase.CanvasBaseActivity"/>
-        <activity android:name=".step2.canvasbase.line.LineActivity"/>
-        <activity android:name=".step2.view.CanvasActivity"/>
-        <activity android:name=".step2.pathtext.PathTextActivity"/>
-        <activity android:name=".step2.range.RangeActivity"/>
-        <activity android:name=".step2.range.CanvasRangeActivity"/>
-        <activity android:name=".step2.canvastransform.CanvasTransformActivity"/>
-        <activity android:name=".step2.canvasbase.drawtext.DrawTextActivity"/>
-        <activity android:name=".step2.path.PathActivity"/>
-        <activity android:name=".step2.path.gestures.GesturesActivity"/>
-        <activity android:name=".step2.path.waveview.WaveViewActivity"/>
-
-        <activity android:name=".step3.flowLayout.FlowLayoutActivity"/>
-        <activity android:name=".step3.waterfalllayout.WaterFallLayoutActivity"/>
-        <activity android:name=".step3.recyclerview.RvActivity"/>
-
-        <activity android:name=".step3.recyclerview.layout.LinearLayoutActivity"/>
-        <activity android:name=".step3.recyclerview.layout.GridLayoutActivity"/>
-        <activity android:name=".step3.recyclerview.layout.StaggeredGridLayoutActivity"/>
-
+        <activity android:name=".step1.interpolator.InterpolatorActivity" />
+        <activity android:name=".step1.baseanim.SecondActivity" />
+        <activity android:name=".step1.baseanim.BaseAnimActivity" />
+        <activity android:name=".step1.animation.AnimationActivity" />
+        <activity android:name=".step1.propertyanimator.PropertyAnimatorActivity" />
+        <activity android:name=".step1.propertyvaluesholder.OfPropertyValuesHolderActivity" />
+        <activity android:name=".step1.animatorset.AnimatorSetActivity" />
+        <activity android:name=".step1.xml.xml_Value_ObjectAnimator_AnimatorSet" />
+        <activity android:name=".step1.layoutgridlayoutanimation.LayoutGridLayoutAnimationActivity" />
+        <activity android:name=".step1.layoutgridlayoutanimation.LayoutAnimationActivity" />
+        <activity android:name=".step1.layoutgridlayoutanimation.LayoutAnimationJavaActivity" />
+        <activity android:name=".step1.layoutgridlayoutanimation.GridAnimationActivity" />
+        <activity android:name=".step1.layoutgridlayoutanimation.GridAnimationJavaActivity" />
+        <activity android:name=".step1.layoutgridlayoutanimation.AnimateLayoutChangesLayoutTransitionActivity" />
+        <activity android:name=".step1.layoutgridlayoutanimation.listviewitem.ListViewItemActivity" />
+        <activity android:name=".step2.Step2Activity" />
+        <activity android:name=".step1.Step1Activity" />
+        <activity android:name=".step3.Step3Activity" />
+        <activity android:name=".step2.canvasbase.CanvasBaseActivity" />
+        <activity android:name=".step2.canvasbase.line.LineActivity" />
+        <activity android:name=".step2.view.CanvasActivity" />
+        <activity android:name=".step2.pathtext.PathTextActivity" />
+        <activity android:name=".step2.range.RangeActivity" />
+        <activity android:name=".step2.range.CanvasRangeActivity" />
+        <activity android:name=".step2.canvastransform.CanvasTransformActivity" />
+        <activity android:name=".step2.canvasbase.drawtext.DrawTextActivity" />
+        <activity android:name=".step2.path.PathActivity" />
+        <activity android:name=".step2.path.gestures.GesturesActivity" />
+        <activity android:name=".step2.path.waveview.WaveViewActivity" />
+        <activity android:name=".step3.flowLayout.FlowLayoutActivity" />
+        <activity android:name=".step3.waterfalllayout.WaterFallLayoutActivity" />
+        <activity android:name=".step3.recyclerview.RvActivity" />
+        <activity android:name=".step3.recyclerview.layout.LinearLayoutActivity" />
+        <activity android:name=".step3.recyclerview.layout.GridLayoutActivity" />
+        <activity android:name=".step3.recyclerview.layout.StaggeredGridLayoutActivity" />
+        <activity android:name=".yzm.NumberYzmActivity"/>
+        <activity android:name=".cloudmusic.CloudActivity"/>
     </application>
 
 </manifest>
