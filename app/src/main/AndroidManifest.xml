@@ -70,6 +70,10 @@
         <activity
             android:name=".autosize_txt.AutoSizeTxtActivity"
             android:label="@string/autosize_view" />
+
+        <activity android:name=".alipay.AliPayHomeActivity"
+            android:label="@string/alipay_home"
+            android:theme="@style/AppThemeNoTitle"/>
     </application>
 
 </manifest>

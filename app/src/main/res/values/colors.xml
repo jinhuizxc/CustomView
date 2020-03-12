@@ -14,4 +14,6 @@
     <color name="mc_txt_gray_bg">#a6a6a6</color>
     <color name="ripple_color">#19333333</color>
 
+    <color name="aliPay_bar_color">#1983d1</color>
+    <color name="aliPay_search_bg_color">#11222222</color>
 </resources>

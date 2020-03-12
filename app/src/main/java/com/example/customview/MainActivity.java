@@ -9,6 +9,7 @@ import android.widget.Button;
 import com.blankj.utilcode.util.ActivityUtils;
 import com.blankj.utilcode.util.ToastUtils;
 import com.example.customview.activity.DotViewActivity;
+import com.example.customview.alipay.AliPayHomeActivity;
 import com.example.customview.autosize_txt.AutoSizeTxtActivity;
 import com.example.customview.badgeview.BadgeViewActivity;
 import com.example.customview.cloudmusic.CloudActivity;
@@ -35,16 +36,15 @@ import butterknife.OnClick;
  * <p>
  * 支持自由定制外观、拖拽消除的MaterialDesign风格Android BadgeView
  * https://github.com/qstumn/BadgeView
- *
+ * <p>
  * Android自定义控件三部曲文章索引
  * https://blog.csdn.net/harvic880925/article/details/50995268
- *
+ * <p>
  * https://github.com/vipulasri/Timeline-View
  * 他是通过自定义View来实现的，大家也可以尝试通过RecyclerView的ItemDecoration来实现出来。
- *
- *
+ * <p>
+ * <p>
  * 将此前写的资源整理下，整合资源;
- *
  */
 
 public class MainActivity extends AppCompatActivity {
@@ -67,6 +67,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnAutoSizeTxt;
     @BindView(R.id.btn_menu_item)
     Button btnMenuItem;
+    @BindView(R.id.btn_alipay_home)
+    Button btnAliPay;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,7 +79,8 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick({R.id.bt_01, R.id.bt_02, R.id.bt_badge,
             R.id.btn_custom_study, R.id.btn_dot, R.id.btn_pic_yzm,
-            R.id.btn_music, R.id.btn_auto_size_txt, R.id.btn_menu_item})
+            R.id.btn_music, R.id.btn_auto_size_txt, R.id.btn_menu_item,
+            R.id.btn_alipay_home})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_pic_yzm:
@@ -106,6 +109,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_menu_item:
                 ActivityUtils.startActivity(MenuItemActivity.class);
+                break;
+            case R.id.btn_alipay_home:
+                ActivityUtils.startActivity(AliPayHomeActivity.class);
                 break;
         }
     }
