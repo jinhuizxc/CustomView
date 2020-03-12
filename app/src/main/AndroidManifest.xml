@@ -67,6 +67,8 @@
         <activity android:name=".step3.recyclerview.layout.StaggeredGridLayoutActivity" />
         <activity android:name=".yzm.NumberYzmActivity"/>
         <activity android:name=".cloudmusic.CloudActivity"/>
+        <activity android:name=".autosize_txt.AutoSizeTxtActivity"
+            android:label="@string/autosize_view"/>
     </application>
 
 </manifest>

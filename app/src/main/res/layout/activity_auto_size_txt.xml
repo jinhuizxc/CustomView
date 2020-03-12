@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.customview.autosize_txt.AutoSizeTextView
+        android:id="@+id/autoSizeView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/marginSize_50dp"
+        android:background="#eeeeee"
+        android:layout_marginTop="@dimen/marginSize_20dp"/>
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_below="@+id/autoSizeView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginSize_50dp"/>
+</RelativeLayout>

@@ -2,12 +2,14 @@ package com.example.customview;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 
 import com.blankj.utilcode.util.ActivityUtils;
 import com.blankj.utilcode.util.ToastUtils;
 import com.example.customview.activity.DotViewActivity;
+import com.example.customview.autosize_txt.AutoSizeTxtActivity;
 import com.example.customview.badgeview.BadgeViewActivity;
 import com.example.customview.cloudmusic.CloudActivity;
 import com.example.customview.yzm.pic.PicYzmActivity;
@@ -60,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnPicYzm;
     @BindView(R.id.btn_music)
     Button btnMusic;
+    @BindView(R.id.btn_auto_size_txt)
+    Button btnAutoSizeTxt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,7 +73,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @OnClick({R.id.bt_01, R.id.bt_02, R.id.bt_badge,
-            R.id.btn_custom_study, R.id.btn_dot, R.id.btn_pic_yzm, R.id.btn_music})
+            R.id.btn_custom_study, R.id.btn_dot, R.id.btn_pic_yzm,
+            R.id.btn_music, R.id.btn_auto_size_txt})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_pic_yzm:
@@ -93,6 +98,14 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_music:
                 ActivityUtils.startActivity(CloudActivity.class);
                 break;
+            case R.id.btn_auto_size_txt:
+                ActivityUtils.startActivity(AutoSizeTxtActivity.class);
+                break;
         }
+    }
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent ev) {
+        return super.dispatchTouchEvent(ev);
     }
 }
