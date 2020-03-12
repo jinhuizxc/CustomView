@@ -22,4 +22,19 @@
         <attr name="cmlv_line_width" format="integer|float|dimension" />
     </declare-styleable>
 
+    <declare-styleable name="MenuItemLayout">
+        <!--标题文本-->
+        <attr name="title_text" format="string"/>
+       <!-- 提示文本-->
+        <attr name="hint_text" format="string"/>
+        <!--引用的图片-->
+        <attr name="icon_reference" format="reference"/>
+        <!--图片uri-->
+        <attr name="icon_uri" format="string"/>
+        <!--跳转url-->
+        <attr name="jump_url" format="string"/>
+        <!--分割线样式-->
+        <attr name="divide_line_style" format="integer"/>
+    </declare-styleable>
+
 </resources>

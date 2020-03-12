@@ -57,6 +57,12 @@
         android:text="Android自定义控件：自适应大小的文本控件" />
 
 
+    <Button
+        android:id="@+id/btn_menu_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MenuItm" />
+
 
 
 </LinearLayout>

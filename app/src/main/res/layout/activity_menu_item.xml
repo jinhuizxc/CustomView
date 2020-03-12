@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/menu_item_layout"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".menu_item.MenuItemActivity">
+
+
+    <com.example.customview.menu_item.MenuItemLayout
+        android:id="@+id/menuItem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="0"
+        app:icon_reference="@mipmap/ic_launcher"
+        app:title_text="个人中心" />
+
+    <com.example.customview.menu_item.MenuItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="1"
+        app:icon_reference="@mipmap/ic_launcher"
+        app:hint_text="查看收藏过的书签"
+        app:title_text="我的收藏" />
+
+    <com.example.customview.menu_item.MenuItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="1"
+        app:icon_reference="@mipmap/ic_launcher"
+        app:hint_text="我关注过的人在这里"
+        app:title_text="我的关注" />
+
+    <com.example.customview.menu_item.MenuItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="2"
+        app:icon_reference="@mipmap/ic_launcher"
+        app:hint_text="有什么问题点这里"
+        app:title_text="我的客服" />
+
+    <com.example.customview.menu_item.MenuItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:divide_line_style="1"
+        app:icon_reference="@mipmap/ic_launcher"
+        app:title_text="设置" />
+
+</LinearLayout >

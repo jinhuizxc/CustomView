@@ -12,9 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".yzm.pic.PicYzmActivity"/>
+        <activity android:name=".menu_item.MenuItemActivity"/>
+        <activity android:name=".yzm.pic.PicYzmActivity" />
         <activity android:name=".activity.DotViewActivity" /> <!-- 自定义view学习 -->
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -65,10 +65,11 @@
         <activity android:name=".step3.recyclerview.layout.LinearLayoutActivity" />
         <activity android:name=".step3.recyclerview.layout.GridLayoutActivity" />
         <activity android:name=".step3.recyclerview.layout.StaggeredGridLayoutActivity" />
-        <activity android:name=".yzm.NumberYzmActivity"/>
-        <activity android:name=".cloudmusic.CloudActivity"/>
-        <activity android:name=".autosize_txt.AutoSizeTxtActivity"
-            android:label="@string/autosize_view"/>
+        <activity android:name=".yzm.NumberYzmActivity" />
+        <activity android:name=".cloudmusic.CloudActivity" />
+        <activity
+            android:name=".autosize_txt.AutoSizeTxtActivity"
+            android:label="@string/autosize_view" />
     </application>
 
 </manifest>
