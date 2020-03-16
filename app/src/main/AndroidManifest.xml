@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".menu_item.MenuItemActivity"/>
+        <activity android:name=".animation_btn.AnimationBtnActivity"></activity>
+        <activity android:name=".menu_item.MenuItemActivity" />
         <activity android:name=".yzm.pic.PicYzmActivity" />
         <activity android:name=".activity.DotViewActivity" /> <!-- 自定义view学习 -->
         <activity android:name=".MainActivity">
@@ -70,10 +71,10 @@
         <activity
             android:name=".autosize_txt.AutoSizeTxtActivity"
             android:label="@string/autosize_view" />
-
-        <activity android:name=".alipay.AliPayHomeActivity"
+        <activity
+            android:name=".alipay.AliPayHomeActivity"
             android:label="@string/alipay_home"
-            android:theme="@style/AppThemeNoTitle"/>
+            android:theme="@style/AppThemeNoTitle" />
     </application>
 
 </manifest>

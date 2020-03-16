@@ -69,6 +69,12 @@
         android:layout_height="wrap_content"
         android:text="支付宝首页效果" />
 
+    <Button
+        android:id="@+id/btn_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="按钮自定义动画" />
+
 
 
 

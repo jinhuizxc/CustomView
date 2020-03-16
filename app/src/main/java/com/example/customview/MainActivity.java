@@ -10,10 +10,12 @@ import com.blankj.utilcode.util.ActivityUtils;
 import com.blankj.utilcode.util.ToastUtils;
 import com.example.customview.activity.DotViewActivity;
 import com.example.customview.alipay.AliPayHomeActivity;
+import com.example.customview.animation_btn.AnimationBtnActivity;
 import com.example.customview.autosize_txt.AutoSizeTxtActivity;
 import com.example.customview.badgeview.BadgeViewActivity;
 import com.example.customview.cloudmusic.CloudActivity;
 import com.example.customview.menu_item.MenuItemActivity;
+import com.example.customview.step1.animation.AnimationActivity;
 import com.example.customview.yzm.pic.PicYzmActivity;
 import com.example.customview.qqmenu.QQMenuActivity;
 
@@ -69,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnMenuItem;
     @BindView(R.id.btn_alipay_home)
     Button btnAliPay;
+    @BindView(R.id.btn_animation)
+    Button btnAnimation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
     @OnClick({R.id.bt_01, R.id.bt_02, R.id.bt_badge,
             R.id.btn_custom_study, R.id.btn_dot, R.id.btn_pic_yzm,
             R.id.btn_music, R.id.btn_auto_size_txt, R.id.btn_menu_item,
-            R.id.btn_alipay_home})
+            R.id.btn_alipay_home, R.id.btn_animation})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_pic_yzm:
@@ -112,6 +116,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_alipay_home:
                 ActivityUtils.startActivity(AliPayHomeActivity.class);
+                break;
+            case R.id.btn_animation:
+                ActivityUtils.startActivity(AnimationBtnActivity.class);
                 break;
         }
     }
