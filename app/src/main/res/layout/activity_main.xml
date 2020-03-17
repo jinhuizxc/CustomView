@@ -75,6 +75,19 @@
         android:layout_height="wrap_content"
         android:text="按钮自定义动画" />
 
+    <Button
+        android:id="@+id/btn_workClock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文字时钟" />
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="富文本编辑器" />
+
+
 
 
 

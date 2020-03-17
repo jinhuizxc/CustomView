@@ -1,1 +1,2 @@
 include ':app', ':badgeviewlib', ':dotview', ':verificationviewlibrary'
+include ':workclockview'

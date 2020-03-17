@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/badgeviewlib" />
             <option value="$PROJECT_DIR$/dotview" />
             <option value="$PROJECT_DIR$/verificationviewlibrary" />
+            <option value="$PROJECT_DIR$/workclockview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
