@@ -7,85 +7,99 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn_custom_study"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="CustomView学习" />
+        android:layout_height="match_parent"
+        android:padding="@dimen/marginSize_20dp">
 
-    <Button
-        android:id="@+id/bt_01"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="仿新版手机QQ底部动态按钮" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
+            <Button
+                android:id="@+id/btn_custom_study"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CustomView学习" />
 
-    <Button
-        android:id="@+id/bt_02"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="多特效的智能loadingView" />
-
-    <Button
-        android:id="@+id/bt_badge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="BadgeView" />
-
-    <Button
-        android:id="@+id/btn_dot"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="支持对任意View添加未读消息红点" />
-
-    <Button
-        android:id="@+id/btn_pic_yzm"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="自定义View之随机生成图片验证码" />
-
-    <Button
-        android:id="@+id/btn_music"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Android 仿网易云音乐 音轨跳动效果" />
-
-    <Button
-        android:id="@+id/btn_auto_size_txt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Android自定义控件：自适应大小的文本控件" />
+            <Button
+                android:id="@+id/bt_01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="仿新版手机QQ底部动态按钮" />
 
 
-    <Button
-        android:id="@+id/btn_menu_item"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="菜单item布局" />
+            <Button
+                android:id="@+id/bt_02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="多特效的智能loadingView" />
 
-    <Button
-        android:id="@+id/btn_alipay_home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="支付宝首页效果" />
+            <Button
+                android:id="@+id/bt_badge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BadgeView" />
 
-    <Button
-        android:id="@+id/btn_animation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="按钮自定义动画" />
+            <Button
+                android:id="@+id/btn_dot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="支持对任意View添加未读消息红点" />
 
-    <Button
-        android:id="@+id/btn_workClock"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="文字时钟" />
+            <Button
+                android:id="@+id/btn_pic_yzm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义View之随机生成图片验证码" />
 
-    <Button
-        android:id="@+id/btn_edit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="富文本编辑器" />
+            <Button
+                android:id="@+id/btn_music"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android 仿网易云音乐 音轨跳动效果" />
+
+            <Button
+                android:id="@+id/btn_auto_size_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android自定义控件：自适应大小的文本控件" />
+
+
+            <Button
+                android:id="@+id/btn_menu_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="菜单item布局" />
+
+            <Button
+                android:id="@+id/btn_alipay_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="支付宝首页效果" />
+
+            <Button
+                android:id="@+id/btn_animation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="按钮自定义动画" />
+
+            <Button
+                android:id="@+id/btn_workClock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="文字时钟" />
+
+            <Button
+                android:id="@+id/btn_editor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="富文本编辑器" />
+
+        </LinearLayout>
+    </ScrollView>
+
 
 
 
