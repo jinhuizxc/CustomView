@@ -1,3 +1,6 @@
 include ':app', ':badgeviewlib', ':dotview', ':verificationviewlibrary'
 include ':workclockview'
 include ':richeditor'
+include ':flowlayout'
+include ':flowlayout-singlechoose'
+include ':viewgroup-study'

@@ -18,7 +18,7 @@ import com.example.customview.R;
  *  https://blog.csdn.net/harvic880925/article/details/47035455
  *
  */
-public class FlowLayoutActivity extends AppCompatActivity {
+public class AFlowLayoutActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

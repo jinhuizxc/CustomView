@@ -86,11 +86,11 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
        /* LayoutInflater inflater = LayoutInflater.from(mContext);
-        return new NormalHolder(inflater.inflate(R.layout.item_layout, parent, false));*/
+        return new NormalHolder(inflater.inflate(R.layout.item_layout_test, parent, false));*/
         // 加载不同type;
         LayoutInflater inflater = LayoutInflater.from(mContext);
         if (viewType == ITEM_TYPE.ITEM_TYPE_ITEM.ordinal()) {
-            return new NormalHolder(inflater.inflate(R.layout.item_layout, parent, false));
+            return new NormalHolder(inflater.inflate(R.layout.item_layout_test, parent, false));
         }
         return new SectionHolder(inflater.inflate(R.layout.item_select, parent, false));
     }

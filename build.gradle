@@ -25,3 +25,8 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext{
+    butterknifeVersion = '8.4.0'
+    utilcodeVersion = '1.25.2'
+}

@@ -11,7 +11,7 @@ import com.blankj.utilcode.util.ToastUtils;
 import com.example.customview.R;
 import com.example.customview.step3.recyclerview.itemdecoration.RvItemDecorationActivity;
 import com.example.customview.step3.recyclerview.layoutmanager.RvLayoutManagerActivity;
-import com.example.customview.step3.flowLayout.FlowLayoutActivity;
+import com.example.customview.step3.flowLayout.AFlowLayoutActivity;
 import com.example.customview.step3.recyclerview.RvActivity;
 import com.example.customview.step3.waterfalllayout.WaterFallLayoutActivity;
 
@@ -58,11 +58,11 @@ public class Step3Activity extends AppCompatActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_layout:
-                ActivityUtils.startActivity(FlowLayoutActivity.class);
+                ActivityUtils.startActivity(AFlowLayoutActivity.class);
                 break;
             case R.id.bt_flowLayout:
                 // startActivity                  : 启动 Activity
-                ActivityUtils.startActivity(FlowLayoutActivity.class);
+                ActivityUtils.startActivity(AFlowLayoutActivity.class);
                 break;
             case R.id.bt_waterFallLayout:
                 ActivityUtils.startActivity(WaterFallLayoutActivity.class);

@@ -319,6 +319,8 @@ public class WorkClockView extends View {
     /**
      * 数字转换文字
      */
+    private static final String TAG = "WorkClockView";
+
     public String toText(int num) {
 //        String[] nums = {"零","一","二","三","四","五","六","七","八","九"};
         String result = "";
@@ -327,6 +329,7 @@ public class WorkClockView extends View {
         int length = str.length();
         for (int i = 0; i < length; i++) {
             int c = charNum[i] - '0';
+            Log.d(TAG, "toText: c =====> " + c);  // 0 -9
             if (c != 0) {
                 result += NUMBER_TEXT_LIST[c];
             } else {

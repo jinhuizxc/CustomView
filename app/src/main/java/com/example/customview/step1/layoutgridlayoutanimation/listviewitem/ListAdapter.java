@@ -140,7 +140,7 @@ public class ListAdapter extends BaseAdapter {
         if (convertView == null) {
 
             holder = new ViewHolder();
-            convertView = mInflater.inflate(R.layout.item_layout, null);
+            convertView = mInflater.inflate(R.layout.item_layout_test, null);
             holder.mImageView = (ImageView) convertView.findViewById(R.id.img);
             holder.mTextView = (TextView) convertView.findViewById(R.id.text);
         } else {

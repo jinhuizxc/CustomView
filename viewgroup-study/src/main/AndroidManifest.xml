@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.viewgroup">
+
+    <application>
+        <activity android:name=".study4.MyGroupAc4"></activity>
+        <activity android:name=".study3.MyGroupAc3" />
+        <activity android:name=".study2.MyGroupActivity2" />
+        <activity android:name=".study1.MyGroupActivity" />
+    </application>
+
+</manifest>

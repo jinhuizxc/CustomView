@@ -60,7 +60,7 @@
         <activity android:name=".step2.path.PathActivity" />
         <activity android:name=".step2.path.gestures.GesturesActivity" />
         <activity android:name=".step2.path.waveview.WaveViewActivity" />
-        <activity android:name=".step3.flowLayout.FlowLayoutActivity" />
+        <activity android:name=".step3.flowLayout.AFlowLayoutActivity" />
         <activity android:name=".step3.waterfalllayout.WaterFallLayoutActivity" />
         <activity android:name=".step3.recyclerview.RvActivity" />
         <activity android:name=".step3.recyclerview.layout.LinearLayoutActivity" />
@@ -75,6 +75,16 @@
             android:name=".alipay.AliPayHomeActivity"
             android:label="@string/alipay_home"
             android:theme="@style/AppThemeNoTitle" />
+
+
+        <activity android:name="com.example.customview.activity.flowlayout.LayoutScrollActivity" />
+        <activity android:name="com.example.customview.activity.flowlayout.TvScrollActivity" />
+
+        <activity android:name="com.example.customview.activity.flowlayout.TvActivity" />
+        <activity android:name="com.example.customview.activity.flowlayout.LayoutMultiScrollActivity" />
+        <activity android:name="com.example.customview.activity.flowlayout.SampleActivity" />
+        <activity android:name="com.example.customview.activity.email.EmailTextAreaActivity"/>
+
     </application>
 
 </manifest>
