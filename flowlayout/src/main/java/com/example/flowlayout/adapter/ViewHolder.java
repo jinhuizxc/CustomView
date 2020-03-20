@@ -8,10 +8,6 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.blankj.utilcode.util.StringUtils;
-
-import org.w3c.dom.Text;
-
 /**
  * 数据类的viewholder
  */

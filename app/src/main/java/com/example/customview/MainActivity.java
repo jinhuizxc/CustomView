@@ -19,7 +19,7 @@ import com.example.customview.yzm.pic.PicYzmActivity;
 import com.example.customview.qqmenu.QQMenuActivity;
 import com.example.customview.activity.flowlayout.SampleActivity;
 import com.example.richeditor.RichEditorWebViewActivity;
-import com.example.viewgroup.study2.MyGroupActivity2;
+import com.example.viewgroup.ViewGroupSampleActivity;
 import com.example.workclockview.WorkClockActivity;
 
 import butterknife.BindView;
@@ -143,7 +143,7 @@ public class MainActivity extends AppCompatActivity {
                 // Android 手把手教您自定义ViewGroup
 //                ActivityUtils.startActivity(MyGroupAc.class);
                 // Android 自定义ViewGroup 实战篇 -> 实现FlowLayout
-                ActivityUtils.startActivity(MyGroupActivity2.class);
+                ActivityUtils.startActivity(ViewGroupSampleActivity.class);
                 break;
         }
     }

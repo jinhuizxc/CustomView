@@ -11,10 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Calendar;
-import java.util.List;
 
 /**
  * 文字时钟：

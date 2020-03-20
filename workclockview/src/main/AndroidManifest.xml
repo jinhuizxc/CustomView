@@ -4,11 +4,11 @@
 
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
     <application>
-        <activity android:name=".WorkClockActivity"/>
+        <activity android:name="com.example.workclockview.WorkClockActivity"/>
 
         <!--动态壁纸服务-->
         <service
-            android:name=".TextClockWallpaperService"
+            android:name="com.example.workclockview.TextClockWallpaperService"
             android:permission="android.permission.BIND_WALLPAPER">
             <intent-filter>
                 <action android:name="android.service.wallpaper.WallpaperService" />

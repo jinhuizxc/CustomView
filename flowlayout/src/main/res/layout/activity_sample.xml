@@ -40,4 +40,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Layout+multi+scroll+remove+add" />
+
+    <Button
+        android:id="@+id/btn_email_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="仿邮件收件人标签" />
+
 </LinearLayout>

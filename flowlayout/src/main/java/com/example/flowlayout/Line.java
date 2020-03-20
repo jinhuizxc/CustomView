@@ -1,6 +1,5 @@
 package com.example.flowlayout;
 
-import android.util.Log;
 import android.view.View;
 
 import java.util.ArrayList;

@@ -16,4 +16,8 @@
 
     <color name="aliPay_bar_color">#1983d1</color>
     <color name="aliPay_search_bg_color">#11222222</color>
+
+    <color name="tag_select_textcolor">#FFffffff</color>
+    <color name="black">#FF000000</color>
+
 </resources>

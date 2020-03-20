@@ -3,7 +3,6 @@
     package="com.example.flowlayout">
 
     <application>
-        <activity android:name="com.example.customview.activity.email.EmailTextAreaActivity"/>
         <activity android:name="com.example.test.TestActivity" />
     </application>
 

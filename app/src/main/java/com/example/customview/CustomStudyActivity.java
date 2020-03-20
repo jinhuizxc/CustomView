@@ -10,9 +10,6 @@ import android.widget.Button;
 import com.example.customview.step1.Step1Activity;
 import com.example.customview.step2.Step2Activity;
 import com.example.customview.step3.Step3Activity;
-import com.example.customview.step1.Step1Activity;
-import com.example.customview.step2.Step2Activity;
-import com.example.customview.step3.Step3Activity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
