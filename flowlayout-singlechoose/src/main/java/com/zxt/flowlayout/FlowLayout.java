@@ -46,7 +46,7 @@ public class FlowLayout extends ViewGroup {
         super(context, attrs, defStyleAttr);
 
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.TagFlowLayout);
-        typedArray.getInt(R.styleable.TagFlowLayout_tag_gravity, LEFT);
+        mGravity = typedArray.getInt(R.styleable.TagFlowLayout_tag_gravity, LEFT);
 
         // 定义布局的方向
         int layoutDirection = TextUtilsCompat.getLayoutDirectionFromLocale(Locale.getDefault());

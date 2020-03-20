@@ -4,12 +4,13 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Checkable;
+import android.widget.FrameLayout;
 
 /**
  * tag: 选中、未选中
  * 实现Checkable接口
  */
-public class TagView extends FlowLayout implements Checkable {
+public class TagView extends FrameLayout implements Checkable {
 
     private boolean isChecked;
 
