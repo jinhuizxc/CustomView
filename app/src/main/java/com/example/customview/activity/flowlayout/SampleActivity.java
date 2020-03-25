@@ -9,6 +9,7 @@ import com.blankj.utilcode.util.ActivityUtils;
 import com.example.customview.R;
 import com.example.customview.activity.email.EmailTextAreaActivity;
 import com.example.customview.activity.email.EmailToActivity;
+import com.example.customview.flowlayout.CategoryActivity;
 import com.example.test.TestActivity;
 
 public class SampleActivity extends AppCompatActivity implements View.OnClickListener {
@@ -25,6 +26,7 @@ public class SampleActivity extends AppCompatActivity implements View.OnClickLis
         findViewById(R.id.btn_layout__multi_scroll).setOnClickListener(this);
         findViewById(R.id.btn_select).setOnClickListener(this);
         findViewById(R.id.btn_email_to).setOnClickListener(this);
+        findViewById(R.id.btn_hyman).setOnClickListener(this);
 
     }
 
@@ -45,6 +47,8 @@ public class SampleActivity extends AppCompatActivity implements View.OnClickLis
             ActivityUtils.startActivity(EmailTextAreaActivity.class);
         }else if (id == R.id.btn_email_to){
             ActivityUtils.startActivity(EmailToActivity.class);
+        }else if (id == R.id.btn_hyman){
+            ActivityUtils.startActivity(CategoryActivity.class);
         }
     }
 }

@@ -1,4 +1,4 @@
-include ':app', ':badgeviewlib', ':dotview', ':verificationviewlibrary'
+include ':app', ':badgeviewlib', ':dotview', ':verificationviewlibrary', ':adlibrary'
 include ':workclockview'
 include ':richeditor'
 include ':flowlayout'

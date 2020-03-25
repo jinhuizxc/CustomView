@@ -47,4 +47,12 @@
         android:layout_height="wrap_content"
         android:text="仿邮件收件人标签" />
 
+    <Button
+        android:id="@+id/btn_hyman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hyman流式布局" />
+
+
+
 </LinearLayout>

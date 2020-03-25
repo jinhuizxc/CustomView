@@ -20,4 +20,6 @@
     <color name="tag_select_textcolor">#FFffffff</color>
     <color name="black">#FF000000</color>
 
+    <color name="color_blue">#2F7DE5</color>
+
 </resources>

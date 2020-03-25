@@ -5,4 +5,10 @@
     <string name="RvLayoutManager">RvLayoutManager</string>
     <string name="autosize_view">自适应大小的文本控件</string>
     <string name="alipay_home">支付宝首页效果</string>
+
+    <string name="text_sys_tips">系统提示</string>
+    <string name="text_tips_notice">检测到系统未启用此App的通知权限，请前往手动开启通知栏权限！</string>
+    <string name="text_start_open">去开启</string>
+    <string name="str_cancel">取消</string>
+
 </resources>

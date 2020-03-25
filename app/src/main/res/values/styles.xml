@@ -66,5 +66,18 @@
         <item name="android:textColor">#ffffff</item>
     </style>
 
+    <!--从屏幕中间出场的动画样式-->
+    <style name="CenterDialogAnimationStyle" parent="Animation.AppCompat.Dialog">
+        <!-- 是否有标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--背景颜色及透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
 
 </resources>

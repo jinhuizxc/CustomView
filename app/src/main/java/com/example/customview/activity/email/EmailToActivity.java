@@ -59,7 +59,7 @@ public class EmailToActivity extends AppCompatActivity {
 
     }
 
-    private TagAdapter tagAdapter = new TagAdapter(mValues) {
+    private TagAdapter tagAdapter = new TagAdapter<String>(mValues) {
         @Override
         public View getView(FlowLayout parent, int position, String s) {
             TextView textView = (TextView) inflater.inflate(R.layout.item_flowlayout, parent, false);
