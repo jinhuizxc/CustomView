@@ -116,6 +116,13 @@
                 android:layout_height="wrap_content"
                 android:text="一个简单，强大的广告活动弹窗控件" />
 
+            <Button
+                android:id="@+id/btn_circle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 自定义View-29 仿直播圆点加载效果" />
+
+
 
 
 

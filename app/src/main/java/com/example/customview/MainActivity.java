@@ -8,6 +8,7 @@ import android.widget.Button;
 
 import com.blankj.utilcode.util.ActivityUtils;
 import com.blankj.utilcode.util.ToastUtils;
+import com.example.customview.activity.CircleViewActivity;
 import com.example.customview.activity.DotViewActivity;
 import com.example.customview.ad.AdActivity;
 import com.example.customview.alipay.AliPayHomeActivity;
@@ -57,6 +58,9 @@ import butterknife.OnClick;
  * https://www.jianshu.com/p/c49fb91aacfe
  * 将module打包上传到maven
  *
+ * # android将module打包成aar上传至自己的maven仓库
+ * https://www.jianshu.com/p/9ff658ea56f0
+ *
  */
 
 public class MainActivity extends AppCompatActivity {
@@ -102,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             R.id.btn_music, R.id.btn_auto_size_txt, R.id.btn_menu_item,
             R.id.btn_alipay_home, R.id.btn_animation, R.id.btn_workClock,
             R.id.btn_editor, R.id.btn_flowLayout, R.id.btn_viewgroup,
-    R.id.btn_ad})
+    R.id.btn_ad, R.id.btn_circle})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_pic_yzm:
@@ -155,6 +159,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_ad:
                 ActivityUtils.startActivity(AdActivity.class);
+                break;
+            case R.id.btn_circle:
+                ActivityUtils.startActivity(CircleViewActivity.class);
                 break;
             default:
                 break;

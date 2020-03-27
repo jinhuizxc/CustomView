@@ -4,7 +4,6 @@
     package="com.example.customview">
 
     <application
-        android:usesCleartextTraffic="true"
         android:name=".app.App"
         android:allowBackup="true"
         android:hardwareAccelerated="false"
@@ -13,8 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ad.AdActivity"></activity>
+        <activity android:name=".activity.CircleViewActivity"></activity>
+        <activity android:name=".ad.AdActivity" />
         <activity android:name=".activity.email.EmailToActivity" />
         <activity android:name=".flowlayout.CategoryActivity" />
         <activity android:name=".animation_btn.AnimationBtnActivity" />
