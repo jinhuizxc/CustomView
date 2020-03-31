@@ -1,6 +1,6 @@
 package com.example.viewgroup.study2;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.viewgroup.R;

@@ -1,7 +1,7 @@
 package com.example.viewgroup;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * ActivityUtils.startActivity(MyGroupActivity2.class);

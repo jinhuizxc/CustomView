@@ -15,7 +15,7 @@ public class MyAdapter extends BaseAdapter {
     private List<String> mDatas;
     private Context mContext;
 
-    public MyAdapter(List<String> mDatas, Context mContext) {
+    public MyAdapter(Context mContext, List<String> mDatas) {
         this.mDatas = mDatas;
         this.mContext = mContext;
     }

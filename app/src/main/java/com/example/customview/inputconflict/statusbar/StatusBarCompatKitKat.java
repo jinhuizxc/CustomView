@@ -7,12 +7,14 @@ package com.example.customview.inputconflict.statusbar;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.AppBarLayout.OnOffsetChangedListener;
-import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.design.widget.CoordinatorLayout.Behavior;
-import android.support.v4.view.ViewCompat;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.appbar.AppBarLayout.OnOffsetChangedListener;
+import com.google.android.material.appbar.CollapsingToolbarLayout;
+
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.coordinatorlayout.widget.CoordinatorLayout.Behavior;
+import androidx.core.view.ViewCompat;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
@@ -123,7 +125,7 @@ public class StatusBarCompatKitKat {
         collapsingToolbarLayout.getChildAt(0).setFitsSystemWindows(false);
         toolbar.setFitsSystemWindows(true);
         if(toolbar.getTag() == null) {
-            android.support.design.widget.CollapsingToolbarLayout.LayoutParams statusBarHeight = (android.support.design.widget.CollapsingToolbarLayout.LayoutParams)toolbar.getLayoutParams();
+            CollapsingToolbarLayout.LayoutParams statusBarHeight = (CollapsingToolbarLayout.LayoutParams)toolbar.getLayoutParams();
             statusBarHeight.height += getStatusBarHeight(activity);
             toolbar.setLayoutParams(statusBarHeight);
             toolbar.setTag(Boolean.valueOf(true));
@@ -133,9 +135,9 @@ public class StatusBarCompatKitKat {
         removeFakeStatusBarViewIfExist(activity);
         removeMarginTopOfContentChild(mContentChild, statusBarHeight1);
         final View statusView = addFakeStatusBarView(activity, statusColor, statusBarHeight1);
-        Behavior behavior = ((android.support.design.widget.CoordinatorLayout.LayoutParams)appBarLayout.getLayoutParams()).getBehavior();
-        if(behavior != null && behavior instanceof android.support.design.widget.AppBarLayout.Behavior) {
-            int verticalOffset = ((android.support.design.widget.AppBarLayout.Behavior)behavior).getTopAndBottomOffset();
+        Behavior behavior = ((CoordinatorLayout.LayoutParams)appBarLayout.getLayoutParams()).getBehavior();
+        if(behavior != null && behavior instanceof AppBarLayout.Behavior) {
+            int verticalOffset = ((AppBarLayout.Behavior)behavior).getTopAndBottomOffset();
             if(Math.abs(verticalOffset) > appBarLayout.getHeight() - collapsingToolbarLayout.getScrimVisibleHeightTrigger()) {
                 statusView.setAlpha(1.0F);
             } else {

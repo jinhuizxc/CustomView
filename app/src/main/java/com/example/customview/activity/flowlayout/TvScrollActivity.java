@@ -1,6 +1,6 @@
 package com.example.customview.activity.flowlayout;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.blankj.utilcode.util.ToastUtils;

@@ -10,15 +10,17 @@ import android.animation.ValueAnimator.AnimatorUpdateListener;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.AppBarLayout.OnOffsetChangedListener;
-import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.design.widget.CollapsingToolbarLayout.LayoutParams;
-import android.support.design.widget.CoordinatorLayout.Behavior;
-import android.support.v4.view.OnApplyWindowInsetsListener;
-import android.support.v4.view.ViewCompat;
-import android.support.v4.view.WindowInsetsCompat;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.appbar.AppBarLayout.OnOffsetChangedListener;
+import com.google.android.material.appbar.CollapsingToolbarLayout;
+import com.google.android.material.appbar.CollapsingToolbarLayout.LayoutParams;
+
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.coordinatorlayout.widget.CoordinatorLayout.Behavior;
+import androidx.core.view.OnApplyWindowInsetsListener;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
@@ -102,9 +104,9 @@ public class StatusBarCompatLollipop {
             toolbar.setTag(Boolean.valueOf(true));
         }
 
-        Behavior behavior1 = ((android.support.design.widget.CoordinatorLayout.LayoutParams)appBarLayout.getLayoutParams()).getBehavior();
-        if(behavior1 != null && behavior1 instanceof android.support.design.widget.AppBarLayout.Behavior) {
-            int verticalOffset = ((android.support.design.widget.AppBarLayout.Behavior)behavior1).getTopAndBottomOffset();
+        Behavior behavior1 = ((CoordinatorLayout.LayoutParams)appBarLayout.getLayoutParams()).getBehavior();
+        if(behavior1 != null && behavior1 instanceof AppBarLayout.Behavior) {
+            int verticalOffset = ((AppBarLayout.Behavior)behavior1).getTopAndBottomOffset();
             if(Math.abs(verticalOffset) > appBarLayout.getHeight() - collapsingToolbarLayout.getScrimVisibleHeightTrigger()) {
                 window.setStatusBarColor(statusColor);
             } else {

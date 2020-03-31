@@ -7,9 +7,9 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.0'
+        classpath 'com.android.tools.build:gradle:3.6.1'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5' // Add this line
-
+        classpath 'com.jakewharton:butterknife-gradle-plugin:10.2.1'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -27,6 +27,6 @@ task clean(type: Delete) {
 }
 
 ext{
-    butterknifeVersion = '8.4.0'
+    butterknifeVersion = '10.2.1'
     utilcodeVersion = '1.25.2'
 }

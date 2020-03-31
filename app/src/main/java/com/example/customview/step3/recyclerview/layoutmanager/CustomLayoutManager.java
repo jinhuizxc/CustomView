@@ -1,6 +1,6 @@
 package com.example.customview.step3.recyclerview.layoutmanager;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
 /**
