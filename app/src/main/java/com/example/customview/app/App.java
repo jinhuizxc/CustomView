@@ -8,6 +8,7 @@ import android.support.multidex.MultiDex;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.customview.utils.SPUtils;
 import com.facebook.drawee.backends.pipeline.Fresco;
 import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.FormatStrategy;
@@ -26,6 +27,7 @@ public class App extends Application implements Application.ActivityLifecycleCal
         super.onCreate();
 
         instance = this;
+        SPUtils.initSp(this);
 
         registerActivityLifecycleCallbacks(this);
 

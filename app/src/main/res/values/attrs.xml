@@ -40,15 +40,22 @@
     <!--ShapeButton-->
     <declare-styleable name="ShapeTextView">
         <!--Button圆角-->
-        <attr name="shapeRadius" format="dimension"></attr>
+        <attr name="shapeRadius" format="dimension"/>
         <!--边框宽度-->
-        <attr name="shapeStrokeWidth" format="dimension"></attr>
+        <attr name="shapeStrokeWidth" format="dimension"/>
         <!--边框颜色-->
-        <attr name="shapeStrokeColor" format="color"></attr>
+        <attr name="shapeStrokeColor" format="color"/>
         <!--背景颜色-->
-        <attr name="shapeBackgroundColor" format="color"></attr>
+        <attr name="shapeBackgroundColor" format="color"/>
         <!--背景按下的颜色-->
-        <attr name="shapeBackgroundSelectorColor" format="color"></attr>
+        <attr name="shapeBackgroundSelectorColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="InputConflictView">
+        <attr name="editText" format="reference"/>
+        <attr name="listView" format="reference"/>
+        <attr name="panelView" format="reference"/>
+        <attr name="switchBtn" format="reference"/>
     </declare-styleable>
 
 </resources>
