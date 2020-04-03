@@ -10,5 +10,12 @@
     <string name="text_tips_notice">检测到系统未启用此App的通知权限，请前往手动开启通知栏权限！</string>
     <string name="text_start_open">去开启</string>
     <string name="str_cancel">取消</string>
+    <string name="str_write_email" />
+    <string name="str_sender">发送人:</string>
+    <string name="str_cs_person">抄送人:</string>
+    <string name="str_subject">主题:</string>
+    <string name="str_subject_hint">请输入主题</string>
+    <string name="str_receive_sender">收件人:</string>
+    <string name="str_send">发送</string>
 
 </resources>

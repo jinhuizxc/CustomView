@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <!--<com.zx.flowlayout.TagFlowLayout
+            android:id="@+id/flow_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:padding="5dp" />-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_50dp"
+            android:gravity="center"
+            android:padding="@dimen/marginSize_10dp"
+            android:text="@string/str_receive_sender"
+            android:textSize="@dimen/font_16sp">
+        </TextView>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/ib_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/marginSize_10dp"
+            android:background="@null"
+            android:src="@drawable/icon_add_c"/>
+
+        <ImageButton
+            android:id="@+id/ib_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/marginSize_10dp"
+            android:background="@null"
+            android:src="@drawable/icon_red_error"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+
+    <include layout="@layout/layout_tv_line" />
+
+    <RelativeLayout
+        android:id="@+id/rl_sender"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_50dp"
+            android:gravity="center"
+            android:padding="@dimen/marginSize_10dp"
+            android:text="@string/str_sender"
+            android:textSize="@dimen/font_16sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_sender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/marginSize_70dp"
+            android:gravity="center|left"
+            android:text=""
+            android:textSize="@dimen/tv_14sp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_cs_person"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_50dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="@dimen/marginSize_10dp"
+            android:text="@string/str_cs_person"
+            android:textSize="@dimen/font_16sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_cs_receiver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/iv_add_person2"
+            android:layout_toRightOf="@+id/tv_cs_person"
+            android:background="@null"
+            android:minHeight="@dimen/height_50dp">
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/iv_add_person2"
+            android:layout_width="@dimen/marginSize_30dp"
+            android:layout_height="@dimen/height_50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/marginSize_10dp"
+            android:src="@drawable/icon_add_c" />
+
+    </RelativeLayout>
+
+    <!--                <include layout="@layout/layout_tv_line" />-->
+
+    <include layout="@layout/layout_tv_line" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_50dp"
+            android:gravity="center"
+            android:padding="@dimen/marginSize_10dp"
+            android:text="@string/str_subject"
+            android:textSize="@dimen/font_16sp" />
+
+        <EditText
+            android:id="@+id/et_subject"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/marginSize_70dp"
+            android:background="@null"
+            android:textSize="@dimen/tv_14sp"
+            android:hint="@string/str_subject_hint" />
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -129,6 +129,12 @@
                 android:layout_height="wrap_content"
                 android:text="键盘冲突" />
 
+            <Button
+                android:id="@+id/btn_expand_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EditText图文混排" />
+
 
 
 

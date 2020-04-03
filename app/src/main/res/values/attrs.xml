@@ -51,6 +51,12 @@
         <attr name="shapeBackgroundSelectorColor" format="color"/>
     </declare-styleable>
 
+    <declare-styleable name="EmailConflictView">
+        <attr name="contentView" format="reference"/>
+        <attr name="panelView1" format="reference"/>
+        <attr name="link" format="reference"/>
+    </declare-styleable>
+
     <declare-styleable name="InputConflictView">
         <attr name="editText" format="reference"/>
         <attr name="listView" format="reference"/>

@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.customview">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".app.App"
         android:allowBackup="true"
@@ -14,8 +18,17 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".inputconflict.KeyboardActivity"
-            android:windowSoftInputMode="stateUnchanged|adjustResize"/>
+
+        <activity android:name=".expand_edittext.ParseActivity" />
+        <activity android:name=".expand_edittext.ExpandEditTextActivity"></activity>
+        <activity
+            android:name=".keyboard.example.HomeEmailActivity"
+            android:theme="@style/AppNoActionBarTheme"
+            android:windowSoftInputMode="adjustResize|stateUnchanged" />
+        <activity android:name=".keyboard.InSampleActivity" />
+        <activity
+            android:name=".keyboard.way1.KeyboardActivity"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
         <activity android:name=".activity.CircleViewActivity" />
         <activity android:name=".ad.AdActivity" />
         <activity android:name=".activity.email.EmailToActivity" />

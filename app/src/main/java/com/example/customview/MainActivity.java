@@ -2,7 +2,7 @@ package com.example.customview;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
-import android.view.MotionEvent;
+
 import android.view.View;
 import android.widget.Button;
 
@@ -16,7 +16,8 @@ import com.example.customview.animation_btn.AnimationBtnActivity;
 import com.example.customview.autosize_txt.AutoSizeTxtActivity;
 import com.example.customview.badgeview.BadgeViewActivity;
 import com.example.customview.cloudmusic.CloudActivity;
-import com.example.customview.inputconflict.KeyboardActivity;
+import com.example.customview.expand_edittext.ExpandEditTextActivity;
+import com.example.customview.keyboard.InSampleActivity;
 import com.example.customview.menu_item.MenuItemActivity;
 import com.example.customview.yzm.pic.PicYzmActivity;
 import com.example.customview.qqmenu.QQMenuActivity;
@@ -107,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
             R.id.btn_music, R.id.btn_auto_size_txt, R.id.btn_menu_item,
             R.id.btn_alipay_home, R.id.btn_animation, R.id.btn_workClock,
             R.id.btn_editor, R.id.btn_flowLayout, R.id.btn_viewgroup,
-    R.id.btn_ad, R.id.btn_circle, R.id.btn_keyboard})
+    R.id.btn_ad, R.id.btn_circle, R.id.btn_keyboard, R.id.btn_expand_edit})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_pic_yzm:
@@ -165,7 +166,10 @@ public class MainActivity extends AppCompatActivity {
                 ActivityUtils.startActivity(CircleViewActivity.class);
                 break;
             case R.id.btn_keyboard:
-                ActivityUtils.startActivity(KeyboardActivity.class);
+                ActivityUtils.startActivity(InSampleActivity.class);
+                break;
+            case R.id.btn_expand_edit:
+                ActivityUtils.startActivity(ExpandEditTextActivity.class);
                 break;
             default:
                 break;

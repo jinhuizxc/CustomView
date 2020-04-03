@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_50dp"
+    android:background="@color/color_main_color">
+
+
+    <LinearLayout
+        android:id="@+id/ll_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/marginSize_10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_email_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/str_write_email"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_18sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_email_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/tv_18sp" />
+
+    <Button
+        android:id="@+id/bt_send"
+        android:layout_width="@dimen/marginSize_70dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_margin="6dp"
+        android:background="@drawable/shape_light_blue"
+        android:clickable="false"
+        android:text="@string/str_send"
+        android:textColor="@color/color_white_50"
+        android:textSize="@dimen/font_16sp" />
+
+</RelativeLayout>

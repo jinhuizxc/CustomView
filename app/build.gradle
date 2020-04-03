@@ -81,5 +81,9 @@ dependencies {
     // 方法数
     implementation 'androidx.multidex:multidex:2.0.0'
 
+    // 权限管理
+    api 'me.weyye.hipermission:library:1.0.7'
+    implementation project(path: ':expandedittext')
+
 
 }

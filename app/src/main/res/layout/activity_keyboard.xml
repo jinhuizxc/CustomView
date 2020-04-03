@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat_ll"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:fitsSystemWindows="true">
-
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
 
     <View
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         android:background="@color/colorAccent"
         android:visibility="gone" />
 
-    <com.example.customview.inputconflict.view.InputConflictView
+    <com.example.customview.keyboard.way1.InputConflictView
         android:id="@+id/keyboard_layout"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -35,7 +35,7 @@
             android:dividerHeight="10px"
             android:listSelector="#00000000"
             android:scrollbarStyle="outsideOverlay"
-            android:transcriptMode="normal"/>
+            android:transcriptMode="normal" />
 
         <LinearLayout
             android:id="@+id/input_all_ll"
@@ -105,6 +105,5 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:visibility="gone" />
-
-    </com.example.customview.inputconflict.view.InputConflictView>
+    </com.example.customview.keyboard.way1.InputConflictView>
 </LinearLayout>
