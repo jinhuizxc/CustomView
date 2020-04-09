@@ -50,7 +50,7 @@
             android:onClick="testGetOutKeys"
             android:text="测试getOutKeys方法" />
 
-        <com.example.email.EmailTextArea
+        <com.zx.email.EmailTextArea
             android:id="@+id/emailTextArea"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

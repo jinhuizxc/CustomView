@@ -30,7 +30,7 @@
         android:layout_gravity="center"
         android:text="AAAAA"
         android:gravity="center"/>
-    <com.example.customview.step1.propertyvaluesholder.MyTextView
+    <com.zx.customview.step1.propertyvaluesholder.MyTextView
         android:id="@+id/mytv"
         android:layout_width="100dp"
         android:layout_height="wrap_content"

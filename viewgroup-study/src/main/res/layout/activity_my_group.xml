@@ -102,7 +102,7 @@
     </com.example.viewgroup.study1.MyViewGroup>-->
 
     <!--布局3-->
-    <com.example.viewgroup.study1.MyViewGroup
+    <com.zx.viewgroup.study1.MyViewGroup
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#AA333333">
@@ -147,7 +147,7 @@
             android:textSize="22sp"
             android:textStyle="bold" />
 
-    </com.example.viewgroup.study1.MyViewGroup>
+    </com.zx.viewgroup.study1.MyViewGroup>
 
 
 </LinearLayout>

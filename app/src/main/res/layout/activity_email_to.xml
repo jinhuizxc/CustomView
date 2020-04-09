@@ -10,7 +10,7 @@
         android:layout_alignParentTop="true"
         android:orientation="horizontal">
 
-        <com.zxt.flowlayout.TagFlowLayout
+        <com.zx.flowlayout.TagFlowLayout
             android:id="@+id/flowlayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

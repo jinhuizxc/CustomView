@@ -7,32 +7,19 @@
 
 
     <LinearLayout
-        android:id="@+id/ll_content"
+        android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:orientation="horizontal">
 
-        <!--<com.zx.flowlayout.TagFlowLayout
+        <com.zx.flowlayout.TagFlowLayout
             android:id="@+id/flow_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:padding="5dp" />-->
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/height_50dp"
-            android:gravity="center"
-            android:padding="@dimen/marginSize_10dp"
-            android:text="@string/str_receive_sender"
-            android:textSize="@dimen/font_16sp">
-        </TextView>
-
-       <EditText
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"/>
+            android:padding="5dp" />
 
         <ImageButton
             android:id="@+id/ib_add"
@@ -54,7 +41,6 @@
             android:visibility="gone"/>
 
     </LinearLayout>
-
 
 
     <include layout="@layout/layout_tv_line" />
@@ -80,7 +66,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="@dimen/marginSize_70dp"
             android:gravity="center|left"
-            android:text=""
+            android:text="1004260403@qq.com"
             android:textSize="@dimen/tv_14sp">
 
         </TextView>

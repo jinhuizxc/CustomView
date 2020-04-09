@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".activity.CircleViewActivity">
 
-    <com.example.customview.widget.loadingview.LoadingView
+    <com.zx.customview.widget.loadingview.LoadingView
         android:id="@+id/circleView"
         android:layout_centerInParent="true"
         android:layout_width="200dp"

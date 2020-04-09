@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:text="实现波浪效果" />
 
-    <com.example.customview.step2.path.waveview.WaveView
+    <com.zx.customview.step2.path.waveview.WaveView
         android:id="@+id/waveview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

@@ -14,7 +14,7 @@
         android:background="@color/colorAccent"
         android:visibility="gone" />
 
-    <com.example.customview.keyboard.way1.InputConflictView
+    <com.zx.customview.keyboard.way1.InputConflictView
         android:id="@+id/keyboard_layout"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -105,5 +105,5 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:visibility="gone" />
-    </com.example.customview.keyboard.way1.InputConflictView>
+    </com.zx.customview.keyboard.way1.InputConflictView>
 </LinearLayout>

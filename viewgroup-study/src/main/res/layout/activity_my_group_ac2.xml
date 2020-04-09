@@ -6,7 +6,7 @@
     android:background="#E1E6F6"
     android:orientation="vertical" >
 
-    <com.example.viewgroup.study2.FlowLayout
+    <com.zx.viewgroup.study2.FlowLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" >
 
@@ -37,9 +37,9 @@
         <TextView
             style="@style/text_flag_01"
             android:text="I thick i can" />
-    </com.example.viewgroup.study2.FlowLayout>
+    </com.zx.viewgroup.study2.FlowLayout>
 
-    <com.example.viewgroup.study2.FlowLayout
+    <com.zx.viewgroup.study2.FlowLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp" >
@@ -85,9 +85,9 @@
             android:background="@drawable/flag_02"
             android:text="I thick i can"
             android:textColor="#888888" />
-    </com.example.viewgroup.study2.FlowLayout>
+    </com.zx.viewgroup.study2.FlowLayout>
 
-    <com.example.viewgroup.study2.FlowLayout
+    <com.zx.viewgroup.study2.FlowLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp" >
@@ -133,9 +133,9 @@
             android:background="@drawable/flag_03"
             android:text="I thick i can"
             android:textColor="#43BBE7" />
-    </com.example.viewgroup.study2.FlowLayout>
+    </com.zx.viewgroup.study2.FlowLayout>
 
-    <com.example.viewgroup.study2.FlowLayout
+    <com.zx.viewgroup.study2.FlowLayout
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -183,7 +183,7 @@
             android:text="I thick i can"
             android:textColor="#323232" />
 
-    </com.example.viewgroup.study2.FlowLayout>
+    </com.zx.viewgroup.study2.FlowLayout>
 
 
 

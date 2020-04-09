@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.customview.autosize_txt.AutoSizeTextView
+    <com.zx.customview.autosize_txt.AutoSizeTextView
         android:id="@+id/autoSizeView"
         android:layout_width="match_parent"
         android:layout_height="@dimen/marginSize_50dp"

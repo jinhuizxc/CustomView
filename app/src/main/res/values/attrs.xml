@@ -52,7 +52,6 @@
     </declare-styleable>
 
     <declare-styleable name="EmailConflictView">
-        <attr name="contentView" format="reference"/>
         <attr name="panelView1" format="reference"/>
         <attr name="link" format="reference"/>
     </declare-styleable>

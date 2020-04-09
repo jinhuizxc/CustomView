@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:text="方式一(reset)" />
 
-    <com.example.customview.step2.path.gestures.Gestures1View
+    <com.zx.customview.step2.path.gestures.Gestures1View
         android:id="@+id/gestures1View"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:text="方式二(reset)" />
 
-    <com.example.customview.step2.path.gestures.Gestures2View
+    <com.zx.customview.step2.path.gestures.Gestures2View
         android:id="@+id/gestures2View"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

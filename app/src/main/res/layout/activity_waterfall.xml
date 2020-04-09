@@ -23,7 +23,7 @@
             <!--android:layout_height="match_parent"-->
             <!--android:layout_below="@+id/add_btn" />-->
 
-        <com.example.customview.step3.waterfalllayout.WaterfallLayoutImprove
+        <com.zx.customview.step3.waterfalllayout.WaterfallLayoutImprove
             android:id="@+id/waterfallLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

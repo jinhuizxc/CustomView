@@ -19,7 +19,7 @@
         android:layout_toRightOf="@+id/btnSet"
         android:text="清除壁纸" />
 
-    <com.example.workclockview.WorkClockView
+    <com.zx.workclockview.WorkClockView
         android:id="@+id/wk_clockView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

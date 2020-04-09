@@ -8,13 +8,19 @@
         android:id="@+id/btn_way1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="方式一" />
+        android:text="Android之控件保持在软键盘上面" />
 
     <Button
         android:id="@+id/btn_way2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="方式二" />
+        android:text="android 实现按钮浮动在键盘上方" />
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试图文混排框架" />
 
     <Button
         android:id="@+id/btn_edit_email"

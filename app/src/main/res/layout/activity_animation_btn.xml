@@ -9,12 +9,12 @@
     tools:context=".animation_btn.AnimationBtnActivity">
 
 
-    <com.example.customview.animation_btn.AnimationButton
+    <com.zx.customview.animation_btn.AnimationButton
         android:id="@+id/animation_btn"
         android:layout_width="200dp"
         android:layout_height="50dp"/>
 
-    <com.example.customview.animation_btn.OkView
+    <com.zx.customview.animation_btn.OkView
         android:layout_marginTop="@dimen/marginSize_50dp"
         android:id="@+id/okView"
         android:layout_width="200dp"

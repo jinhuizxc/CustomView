@@ -16,28 +16,28 @@
         android:paddingRight="12dp"
         android:showDividers="middle|end">
 
-        <com.example.dotview.DotTextView
+        <com.zx.dotview.DotTextView
             style="@style/DotTextView"
             app:dot_gravity="center_vertical"
             app:dot_horizontal_padding="12dp"
             app:dot_is_follow_text="true"
             app:dot_tips_count="3"/>
 
-        <com.example.dotview.DotTextView
+        <com.zx.dotview.DotTextView
             style="@style/DotTextView"
             app:dot_color="@color/colorAccent"
             app:dot_horizontal_padding="12dp"
             app:dot_is_follow_text="true"
             app:dot_tips_count="13"/>
 
-        <com.example.dotview.DotTextView
+        <com.zx.dotview.DotTextView
             style="@style/DotTextView"
             app:dot_gravity="center_vertical"
             app:dot_horizontal_padding="12dp"
             app:dot_is_follow_text="true"
             app:dot_tips_count="113"/>
 
-        <com.example.dotview.DotTextView
+        <com.zx.dotview.DotTextView
             android:id="@+id/tv_dot"
             style="@style/DotTextView"
             app:dot_gravity="center_vertical"
@@ -46,7 +46,7 @@
             app:dot_is_show="true"/>
     </LinearLayout>
 
-    <com.example.dotview.DotImageView
+    <com.zx.dotview.DotImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -63,24 +63,24 @@
         android:gravity="bottom"
         android:orientation="horizontal">
 
-        <com.example.dotview.DotRadioButton
+        <com.zx.dotview.DotRadioButton
             style="@style/TabRadioButton"
             app:dot_color="@android:color/holo_orange_dark"
             app:dot_margin_top="-4dp"
             app:dot_tips_count="2"/>
 
-        <com.example.dotview.DotRadioButton
+        <com.zx.dotview.DotRadioButton
             style="@style/TabRadioButton"
             app:dot_color="@android:color/holo_red_light"
             app:dot_is_show="true"/>
 
-        <com.example.dotview.DotRadioButton
+        <com.zx.dotview.DotRadioButton
             style="@style/TabRadioButton"
             app:dot_color="@android:color/holo_blue_bright"
             app:dot_margin_top="-4dp"
             app:dot_tips_count="22"/>
 
-        <com.example.dotview.DotRadioButton
+        <com.zx.dotview.DotRadioButton
             style="@style/TabRadioButton"
             app:dot_color="@android:color/holo_red_light"
             app:dot_is_show="true"/>

@@ -7,7 +7,7 @@
     tools:context=".CustomStudyActivity"
     android:orientation="vertical">
 
-    <com.example.customview.step3.flowLayout.FlowLayout
+    <com.zx.customview.step3.flowLayout.FlowLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -32,7 +32,7 @@
             android:background="#0000ff"
             android:text="第三个VIEW" />
 
-    </com.example.customview.step3.flowLayout.FlowLayout>
+    </com.zx.customview.step3.flowLayout.FlowLayout>
 
 
     <LinearLayout
@@ -41,7 +41,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
 
-        <com.example.customview.step3.flowLayout.FlowLayoutSimple
+        <com.zx.customview.step3.flowLayout.FlowLayoutSimple
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/color_01">
@@ -106,7 +106,7 @@
                 android:text="I thick i can"
                 android:textColor="#43BBE7" />
 
-        </com.example.customview.step3.flowLayout.FlowLayoutSimple>
+        </com.zx.customview.step3.flowLayout.FlowLayoutSimple>
 
     </LinearLayout>
 

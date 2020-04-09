@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.workclockview">
+    package="com.zx.workclockview">
 
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
     <application>
-        <activity android:name="com.example.workclockview.WorkClockActivity"/>
+        <activity android:name="com.zx.workclockview.WorkClockActivity"/>
 
         <!--动态壁纸服务-->
         <service
-            android:name="com.example.workclockview.TextClockWallpaperService"
+            android:name="com.zx.workclockview.TextClockWallpaperService"
             android:permission="android.permission.BIND_WALLPAPER">
             <intent-filter>
                 <action android:name="android.service.wallpaper.WallpaperService" />

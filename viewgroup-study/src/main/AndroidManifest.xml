@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.viewgroup" >
+    package="com.zx.viewgroup" >
 
     <application>
-        <activity android:name="com.example.viewgroup.ViewGroupSampleActivity" >
+        <activity android:name="com.zx.viewgroup.ViewGroupSampleActivity" >
         </activity>
-        <activity android:name="com.example.viewgroup.study4.MyGroupAc4" />
-        <activity android:name="com.example.viewgroup.study3.MyGroupAc3" />
-        <activity android:name="com.example.viewgroup.study2.MyGroupActivity2" />
-        <activity android:name="com.example.viewgroup.study1.MyGroupActivity" />
+        <activity android:name="com.zx.viewgroup.study4.MyGroupAc4" />
+        <activity android:name="com.zx.viewgroup.study3.MyGroupAc3" />
+        <activity android:name="com.zx.viewgroup.study2.MyGroupActivity2" />
+        <activity android:name="com.zx.viewgroup.study1.MyGroupActivity" />
     </application>
 
 </manifest>
