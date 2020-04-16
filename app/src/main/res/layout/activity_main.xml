@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -125,17 +125,15 @@
                 android:text="键盘冲突" />
 
 
-
-
+            <Button
+                android:id="@+id/btn_fold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="折叠效果" />
 
 
         </LinearLayout>
     </ScrollView>
-
-
-
-
-
 
 
 </LinearLayout>

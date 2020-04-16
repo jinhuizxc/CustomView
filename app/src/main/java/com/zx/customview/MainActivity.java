@@ -18,6 +18,7 @@ import com.zx.customview.badgeview.BadgeViewActivity;
 import com.zx.customview.cloudmusic.CloudActivity;
 import com.zx.customview.keyboard.InSampleActivity;
 import com.zx.customview.menu_item.MenuItemActivity;
+import com.zx.customview.widget.fold.FoldActivity;
 import com.zx.customview.yzm.pic.PicYzmActivity;
 import com.zx.customview.qqmenu.QQMenuActivity;
 import com.zx.richeditor.RichEditorWebViewActivity;
@@ -105,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             R.id.btn_music, R.id.btn_auto_size_txt, R.id.btn_menu_item,
             R.id.btn_alipay_home, R.id.btn_animation, R.id.btn_workClock,
             R.id.btn_editor, R.id.btn_viewgroup,
-    R.id.btn_ad, R.id.btn_circle, R.id.btn_keyboard})
+    R.id.btn_ad, R.id.btn_circle, R.id.btn_keyboard, R.id.btn_fold})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_pic_yzm:
@@ -161,6 +162,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_keyboard:
                 ActivityUtils.startActivity(InSampleActivity.class);
+                break;
+            case R.id.btn_fold:
+                ActivityUtils.startActivity(FoldActivity.class);
                 break;
             default:
                 break;

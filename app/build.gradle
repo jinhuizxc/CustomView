@@ -88,7 +88,8 @@ dependencies {
     implementation 'com.romandanylyk:pageindicatorview:1.0.1'
 
     implementation 'cn.lankton:flowlayout:1.0.1'
-
+    implementation project(path: ':expandview')
+    implementation 'com.hyman:flowlayout-lib:1.1.2'
 
 
 }

@@ -17,3 +17,4 @@ http://blog.csdn.net/harvic880925/article/details/50995268
 - [Android 自定义View之随机生成图片验证码](https://www.jianshu.com/p/3a16eebe1893)
 - [Android自定义控件（随机验证码）](https://github.com/zhijieeeeee/VerificationView)
 - [Android 仿网易云音乐 音轨跳动效果](https://www.jianshu.com/p/48f1273fa821)
+- [View的onAttachedToWindow和onDetachedFromWindow的调用时机分析](https://www.jianshu.com/p/e7b6fa788ae6)
