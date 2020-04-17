@@ -27,7 +27,13 @@
                 android:id="@+id/btn_viewgroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ViewGroup学习" />
+                android:text="Android自定义控件" />
+
+            <Button
+                android:id="@+id/btn_viewAndGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ViewAndGroup" />
 
 
             <Button
@@ -117,6 +123,11 @@
                 android:layout_height="wrap_content"
                 android:text=" 自定义View-29 仿直播圆点加载效果" />
 
+            <Button
+                android:id="@+id/btn_flow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HyFlowlayout" />
 
             <Button
                 android:id="@+id/btn_keyboard"

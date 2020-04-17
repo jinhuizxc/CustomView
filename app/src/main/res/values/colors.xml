@@ -32,6 +32,7 @@
     <color name="app_protect_eye">#FFFCF6</color>
     <color name="app_gray7">#BFBFBF</color>
     <color name="common_page_bg_color">#ebebeb</color>
+    <color name="green">#5FEC14</color>
 
 
 </resources>

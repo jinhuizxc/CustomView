@@ -281,6 +281,7 @@ public class TagFlowLayout extends FlowLayout implements TagAdapter.OnDataSetCha
     private void doSelect(TagView child, int position) {
         if (!child.isChecked()){
             if (mSelectedItem.size() == 1){
+                // 如果已经选择了元素，切换到另一个元素走这里
                 Log.d(TAG, "doSelect: 1 === " + position);
                 Iterator<Integer> iterator = mSelectedItem.iterator();
                 Integer preIndex = iterator.next();
@@ -304,6 +305,8 @@ public class TagFlowLayout extends FlowLayout implements TagAdapter.OnDataSetCha
             }
             selectedIndex = position;
             isSelect = true;
+            // TODO 显示右侧差号，用于删除选中元素
+
         }else {
             // 取消选择的话走这里
             Log.d(TAG, "doSelect: 3 === " + position);

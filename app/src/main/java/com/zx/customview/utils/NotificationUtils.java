@@ -31,7 +31,7 @@ import com.blankj.utilcode.util.LogUtils;
 import com.zx.customview.R;
 import com.zx.customview.app.App;
 import com.zx.customview.app.Constants;
-import com.zx.customview.widget.dialog.QuireDialog;
+import com.zx.customview.widgets.dialog.QuireDialog;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

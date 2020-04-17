@@ -1,4 +1,4 @@
-package com.zx.customview.widget.dialog;
+package com.zx.customview.widgets.dialog;
 
 import android.app.Dialog;
 import android.content.Context;

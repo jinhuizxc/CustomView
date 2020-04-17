@@ -15,8 +15,8 @@ public class CategoryActivity extends AppCompatActivity {
     private ViewPager mViewPager;
 
     private String[] mTabTitles = new String[]
-            {"Muli Selected", "Limit 3",
-                    "Event Test", "ScrollView Test", "Single Choose", "Gravity", "ListView Sample"};
+            {"Single Choose", "Limit 3",
+                    "Event Test", "ScrollView Test", "Muli Selected", "Gravity", "ListView Sample"};
 
 
     @Override
@@ -32,7 +32,8 @@ public class CategoryActivity extends AppCompatActivity {
             public Fragment getItem(int i) {
                 switch (i) {
                     case 0:
-                        return new SimpleFragment();
+                        // 单选
+                        return new SingleChooseFragment ();
                     case 1:
                         return new LimitSelectedFragment();
                     case 2:
@@ -40,7 +41,7 @@ public class CategoryActivity extends AppCompatActivity {
                     case 3:
                         return new ScrollViewTestFragment();
                     case 4:
-                        return new SingleChooseFragment();
+                        return new SimpleFragment();
                     case 5:
                         return new GravityFragment();
                     case 6:

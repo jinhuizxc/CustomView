@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.zx.customview.R;
-import com.zx.customview.widget.loadingview.CircleView;
+import com.zx.customview.widgets.loadingview.CircleView;
 
 public class CircleViewActivity extends AppCompatActivity {
 

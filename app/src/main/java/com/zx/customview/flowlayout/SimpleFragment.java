@@ -19,6 +19,7 @@ import com.zx.flowlayout.TagAdapter;
  * Created by zhy on 15/9/10.
  */
 public class SimpleFragment extends Fragment {
+
     private String[] mVals = new String[]
             {"Hello", "Android", "Weclome Hi ", "Button", "TextView", "Hello",
                     "Android", "Weclome", "Button ImageView", "TextView", "Helloworld",

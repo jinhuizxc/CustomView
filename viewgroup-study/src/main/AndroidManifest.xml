@@ -3,7 +3,7 @@
     package="com.zx.viewgroup" >
 
     <application>
-        <activity android:name="com.zx.viewgroup.ViewGroupSampleActivity" >
+        <activity android:name="com.zx.viewgroup.com.zx.customview.activity.ViewSampleActivity" >
         </activity>
         <activity android:name="com.zx.viewgroup.study4.MyGroupAc4" />
         <activity android:name="com.zx.viewgroup.study3.MyGroupAc3" />

@@ -10,19 +10,21 @@ import com.blankj.utilcode.util.ActivityUtils;
 import com.blankj.utilcode.util.ToastUtils;
 import com.zx.customview.activity.CircleViewActivity;
 import com.zx.customview.activity.DotViewActivity;
+import com.zx.customview.activity.ViewSampleActivity;
 import com.zx.customview.ad.AdActivity;
 import com.zx.customview.alipay.AliPayHomeActivity;
 import com.zx.customview.animation_btn.AnimationBtnActivity;
 import com.zx.customview.autosize_txt.AutoSizeTxtActivity;
 import com.zx.customview.badgeview.BadgeViewActivity;
 import com.zx.customview.cloudmusic.CloudActivity;
+import com.zx.customview.flowlayout.CategoryActivity;
 import com.zx.customview.keyboard.InSampleActivity;
 import com.zx.customview.menu_item.MenuItemActivity;
+import com.zx.customview.viewandgroup.ViewAndGroupActivity;
 import com.zx.customview.widget.fold.FoldActivity;
 import com.zx.customview.yzm.pic.PicYzmActivity;
 import com.zx.customview.qqmenu.QQMenuActivity;
 import com.zx.richeditor.RichEditorWebViewActivity;
-import com.zx.viewgroup.ViewGroupSampleActivity;
 import com.zx.workclockview.WorkClockActivity;
 
 import butterknife.BindView;
@@ -106,7 +108,9 @@ public class MainActivity extends AppCompatActivity {
             R.id.btn_music, R.id.btn_auto_size_txt, R.id.btn_menu_item,
             R.id.btn_alipay_home, R.id.btn_animation, R.id.btn_workClock,
             R.id.btn_editor, R.id.btn_viewgroup,
-    R.id.btn_ad, R.id.btn_circle, R.id.btn_keyboard, R.id.btn_fold})
+            R.id.btn_viewAndGroup,
+    R.id.btn_ad, R.id.btn_circle, R.id.btn_keyboard, R.id.btn_fold,
+            R.id.btn_flow})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_pic_yzm:
@@ -149,16 +153,19 @@ public class MainActivity extends AppCompatActivity {
                 ActivityUtils.startActivity(RichEditorWebViewActivity.class);
                 break;
             case R.id.btn_viewgroup:
-                // Android 手把手教您自定义ViewGroup
-//                ActivityUtils.startActivity(MyGroupAc.class);
-                // Android 自定义ViewGroup 实战篇 -> 实现FlowLayout
-                ActivityUtils.startActivity(ViewGroupSampleActivity.class);
+                ActivityUtils.startActivity(ViewSampleActivity.class);
+                break;
+            case R.id.btn_viewAndGroup:
+                ActivityUtils.startActivity(ViewAndGroupActivity.class);
                 break;
             case R.id.btn_ad:
                 ActivityUtils.startActivity(AdActivity.class);
                 break;
             case R.id.btn_circle:
                 ActivityUtils.startActivity(CircleViewActivity.class);
+                break;
+            case R.id.btn_flow:
+                ActivityUtils.startActivity(CategoryActivity.class);
                 break;
             case R.id.btn_keyboard:
                 ActivityUtils.startActivity(InSampleActivity.class);

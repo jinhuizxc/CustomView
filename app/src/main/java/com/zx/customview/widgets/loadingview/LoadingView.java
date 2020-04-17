@@ -1,4 +1,4 @@
-package com.zx.customview.widget.loadingview;
+package com.zx.customview.widgets.loadingview;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.blankj.utilcode.util.ToastUtils;
 import com.zx.customview.R;
 import com.zx.flowlayout.FlowLayout;
 import com.zx.flowlayout.HyTagFlowLayout;
@@ -20,6 +21,7 @@ import java.util.Set;
  * Created by zhy on 15/9/10.
  */
 public class SingleChooseFragment extends Fragment {
+
     private String[] mVals = new String[]
             {"Hello", "Android", "Weclome Hi ", "Button", "TextView", "Hello",
                     "Android", "Weclome", "Button ImageView", "TextView", "Helloworld",
@@ -62,7 +64,7 @@ public class SingleChooseFragment extends Fragment {
         mFlowLayout.setOnTagClickListener(new HyTagFlowLayout.OnTagClickListener() {
             @Override
             public boolean onTagClick(View view, int position, FlowLayout parent) {
-                Toast.makeText(getActivity(), mVals[position], Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getActivity(), mVals[position], Toast.LENGTH_SHORT).show();
                 //view.setVisibility(View.GONE);
                 return true;
             }
@@ -73,6 +75,7 @@ public class SingleChooseFragment extends Fragment {
             @Override
             public void onSelected(Set<Integer> selectPosSet) {
                 getActivity().setTitle("choose:" + selectPosSet.toString());
+                ToastUtils.showShort("choose:" + selectPosSet.toString());
             }
         });
     }

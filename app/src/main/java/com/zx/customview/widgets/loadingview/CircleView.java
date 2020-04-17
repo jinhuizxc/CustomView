@@ -1,4 +1,4 @@
-package com.zx.customview.widget.loadingview;
+package com.zx.customview.widgets.loadingview;
 
 import android.content.Context;
 import android.graphics.Canvas;

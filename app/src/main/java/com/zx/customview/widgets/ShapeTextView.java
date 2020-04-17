@@ -1,4 +1,4 @@
-package com.zx.customview.widget;
+package com.zx.customview.widgets;
 
 import android.content.Context;
 import android.content.res.TypedArray;

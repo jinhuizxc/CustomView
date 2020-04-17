@@ -97,8 +97,6 @@ public class HyTagFlowLayout extends FlowLayout
             tagView.setDuplicateParentStateEnabled(true);
             if (tagView.getLayoutParams() != null) {
                 tagViewContainer.setLayoutParams(tagView.getLayoutParams());
-
-
             } else {
                 MarginLayoutParams lp = new MarginLayoutParams(
                         LayoutParams.WRAP_CONTENT,
