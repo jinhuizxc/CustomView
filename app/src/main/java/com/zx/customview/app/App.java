@@ -60,6 +60,9 @@ public class App extends Application implements Application.ActivityLifecycleCal
         });
     }
 
+    public static String getFileProviderName() {
+        return App.getApp().getPackageName() + ".fileprovider";
+    }
 
 
     public static App getApp() {
@@ -80,6 +83,7 @@ public class App extends Application implements Application.ActivityLifecycleCal
             ((ViewGroup) this.mActivity.getWindow().getDecorView()).addView(view);
         }
     }
+
 
     /**
      * 隐藏View

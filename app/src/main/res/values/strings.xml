@@ -18,5 +18,7 @@
     <string name="str_receive_sender">收件人:</string>
     <string name="str_send">发送</string>
     <string name="send">发送</string>
+    <string name="error_gif">长宽不小于 %1$dpx，且大小不超过 %2$sM。</string>
+    <string name="permission_request_denied">权限被拒绝</string>
 
 </resources>

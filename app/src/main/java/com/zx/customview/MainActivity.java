@@ -18,6 +18,7 @@ import com.zx.customview.autosize_txt.AutoSizeTxtActivity;
 import com.zx.customview.badgeview.BadgeViewActivity;
 import com.zx.customview.cloudmusic.CloudActivity;
 import com.zx.customview.flowlayout.CategoryActivity;
+import com.zx.customview.image_et.ImgEditTextActivity;
 import com.zx.customview.keyboard.InSampleActivity;
 import com.zx.customview.menu_item.MenuItemActivity;
 import com.zx.customview.viewandgroup.ViewAndGroupActivity;
@@ -110,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
             R.id.btn_editor, R.id.btn_viewgroup,
             R.id.btn_viewAndGroup,
     R.id.btn_ad, R.id.btn_circle, R.id.btn_keyboard, R.id.btn_fold,
-            R.id.btn_flow})
+            R.id.btn_flow, R.id.btn_img_et})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_pic_yzm:
@@ -172,6 +173,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_fold:
                 ActivityUtils.startActivity(FoldActivity.class);
+                break;
+            case R.id.btn_img_et:
+                ActivityUtils.startActivity(ImgEditTextActivity.class);
                 break;
             default:
                 break;
