@@ -14,6 +14,9 @@ http://blog.csdn.net/harvic880925/article/details/50995268
 - [Path之基本操作](https://www.jianshu.com/p/db7d8da71688)
 - [Android Canvas之Path操作](https://www.jianshu.com/p/9ad3aaae0c63)
 - [android Path类中的moveTo和lineTo的区别](https://blog.csdn.net/lan12334321234/article/details/70049539)
+- [项目中用到的onTouchEvent事件小结](https://www.jianshu.com/p/ae85713b576c)
+- [canvas.save()和canvas.restore()的理解](https://www.jianshu.com/p/619618905432)
+
 ### 自定义view
 - [HenCoder Android 开发进阶: 自定义 View 1-2 Paint 详解](https://juejin.im/post/596baf5f6fb9a06bb15a3df9)
 - [TicketView](https://github.com/vipulasri/TicketView)

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -11,7 +12,10 @@ import android.widget.LinearLayout;
 import com.blankj.utilcode.util.ActivityUtils;
 import com.blankj.utilcode.util.ToastUtils;
 import com.zx.customview.R;
+import com.zx.customview.viewandgroup.activity.BezierActivity;
 import com.zx.customview.viewandgroup.activity.CanvasOperationActivity;
+import com.zx.customview.viewandgroup.activity.CustomViewActivity;
+import com.zx.customview.viewandgroup.activity.CustomViewBasicActivity;
 import com.zx.customview.viewandgroup.activity.DrawActivity;
 import com.zx.customview.viewandgroup.activity.DrawPathActivity;
 import com.zx.customview.viewandgroup.activity.ViewMeasureActivity;
@@ -71,8 +75,14 @@ public class ViewAndGroupActivity extends AppCompatActivity {
                         ActivityUtils.startActivity(DrawPathActivity.class);
                         break;
                     case 4:
+                        ActivityUtils.startActivity(BezierActivity.class);
                         break;
                     case 5:
+                        //自定义View基础
+                        ActivityUtils.startActivity(CustomViewBasicActivity.class);
+                        break;
+                    case 6:
+                        ActivityUtils.startActivity(CustomViewActivity.class);
                         break;
                     default:
                         break;

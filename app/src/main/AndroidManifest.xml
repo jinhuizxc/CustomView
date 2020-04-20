@@ -18,7 +18,10 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".image_et.ImgEditTextActivity"></activity>
+        <activity android:name=".viewandgroup.activity.CustomViewActivity"></activity>
+        <activity android:name=".viewandgroup.activity.CustomViewBasicActivity" />
+        <activity android:name=".viewandgroup.activity.BezierActivity" />
+        <activity android:name=".image_et.ImgEditTextActivity" />
         <activity android:name=".viewandgroup.activity.DrawPathActivity" />
         <activity android:name=".viewandgroup.activity.CanvasOperationActivity" />
         <activity android:name=".viewandgroup.activity.DrawActivity" />
@@ -34,7 +37,6 @@
         <activity android:name=".expand_edittext.ParseActivity" />
         <activity android:name=".widgets.custom3.CustomViewActivity3" />
         <activity android:name=".activity.ViewSampleActivity" />
-
         <activity
             android:name=".keyboard.email.HomeEmailActivity"
             android:theme="@style/AppNoActionBarTheme"
@@ -109,9 +111,7 @@
         <activity
             android:name=".alipay.AliPayHomeActivity"
             android:label="@string/alipay_home"
-            android:theme="@style/AppThemeNoTitle" />
-
-        <!-- 7.0文件存储需要配置的部分 -->
+            android:theme="@style/AppThemeNoTitle" /> <!-- 7.0文件存储需要配置的部分 -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.zx.customview.fileprovider"
@@ -121,7 +121,6 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
-
     </application>
 
 </manifest>
