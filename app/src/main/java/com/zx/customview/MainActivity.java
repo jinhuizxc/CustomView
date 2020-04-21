@@ -10,6 +10,7 @@ import com.blankj.utilcode.util.ActivityUtils;
 import com.blankj.utilcode.util.ToastUtils;
 import com.zx.customview.activity.CircleViewActivity;
 import com.zx.customview.activity.DotViewActivity;
+import com.zx.customview.activity.NewActivity;
 import com.zx.customview.activity.ViewSampleActivity;
 import com.zx.customview.ad.AdActivity;
 import com.zx.customview.alipay.AliPayHomeActivity;
@@ -175,7 +176,9 @@ public class MainActivity extends AppCompatActivity {
                 ActivityUtils.startActivity(FoldActivity.class);
                 break;
             case R.id.btn_img_et:
-                ActivityUtils.startActivity(ImgEditTextActivity.class);
+//                ActivityUtils.startActivity(ImgEditTextActivity.class);
+                // 新建笔记
+                ActivityUtils.startActivity(NewActivity.class);
                 break;
             default:
                 break;

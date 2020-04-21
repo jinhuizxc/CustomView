@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.zx.customview.image_et.choose;
+package com.zx.customview.choose;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;

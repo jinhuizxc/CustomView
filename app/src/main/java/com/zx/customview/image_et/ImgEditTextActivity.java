@@ -26,8 +26,8 @@ import com.zhihu.matisse.listener.OnCheckedListener;
 import com.zhihu.matisse.listener.OnSelectedListener;
 import com.zx.customview.R;
 import com.zx.customview.app.App;
-import com.zx.customview.image_et.choose.GifSizeFilter;
-import com.zx.customview.image_et.choose.Glide4Engine;
+import com.zx.customview.choose.GifSizeFilter;
+import com.zx.customview.choose.Glide4Engine;
 import com.zx.customview.image_et.view.EditTextPlus;
 
 import java.util.ArrayList;
