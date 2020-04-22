@@ -19,6 +19,7 @@ import com.zx.customview.viewandgroup.activity.CustomViewBasicActivity;
 import com.zx.customview.viewandgroup.activity.DrawActivity;
 import com.zx.customview.viewandgroup.activity.DrawPathActivity;
 import com.zx.customview.viewandgroup.activity.ViewMeasureActivity;
+import com.zx.customview.viewandgroup.activity.XiaoMiSetpActivity;
 import com.zx.customview.viewandgroup.adapter.MainAdapter;
 
 import java.util.ArrayList;
@@ -84,6 +85,9 @@ public class ViewAndGroupActivity extends AppCompatActivity {
                     case 6:
                         ActivityUtils.startActivity(CustomViewActivity.class);
                         break;
+                    case 7:
+                        //小米计步
+                        ActivityUtils.startActivity(XiaoMiSetpActivity.class);
                     default:
                         break;
                 }

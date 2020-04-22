@@ -18,7 +18,8 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activity.NewActivity"></activity>
+        <activity android:name=".viewandgroup.activity.XiaoMiSetpActivity"></activity>
+        <activity android:name=".activity.NewActivity" />
         <activity android:name=".viewandgroup.activity.CustomViewActivity" />
         <activity android:name=".viewandgroup.activity.CustomViewBasicActivity" />
         <activity android:name=".viewandgroup.activity.BezierActivity" />
@@ -106,9 +107,7 @@
         <activity android:name=".step3.recyclerview.layout.StaggeredGridLayoutActivity" />
         <activity android:name=".yzm.NumberYzmActivity" />
         <activity android:name=".cloudmusic.CloudActivity" />
-
-        <activity android:name=".activity.NewActivity1"/>
-
+        <activity android:name=".activity.NewActivity1" />
         <activity
             android:name=".autosize_txt.AutoSizeTxtActivity"
             android:label="@string/autosize_view" />
@@ -116,8 +115,6 @@
             android:name=".alipay.AliPayHomeActivity"
             android:label="@string/alipay_home"
             android:theme="@style/AppThemeNoTitle" /> <!-- 7.0文件存储需要配置的部分 -->
-
-
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.zx.customview.fileprovider"
@@ -127,7 +124,6 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
-
     </application>
 
 </manifest>

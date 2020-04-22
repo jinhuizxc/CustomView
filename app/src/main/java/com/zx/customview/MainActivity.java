@@ -1,10 +1,10 @@
 package com.zx.customview;
 
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.blankj.utilcode.util.ActivityUtils;
 import com.blankj.utilcode.util.ToastUtils;
@@ -19,13 +19,12 @@ import com.zx.customview.autosize_txt.AutoSizeTxtActivity;
 import com.zx.customview.badgeview.BadgeViewActivity;
 import com.zx.customview.cloudmusic.CloudActivity;
 import com.zx.customview.flowlayout.CategoryActivity;
-import com.zx.customview.image_et.ImgEditTextActivity;
 import com.zx.customview.keyboard.InSampleActivity;
 import com.zx.customview.menu_item.MenuItemActivity;
+import com.zx.customview.qqmenu.QQMenuActivity;
 import com.zx.customview.viewandgroup.ViewAndGroupActivity;
 import com.zx.customview.widget.fold.FoldActivity;
 import com.zx.customview.yzm.pic.PicYzmActivity;
-import com.zx.customview.qqmenu.QQMenuActivity;
 import com.zx.richeditor.RichEditorWebViewActivity;
 import com.zx.workclockview.WorkClockActivity;
 

@@ -78,4 +78,36 @@
         <attr name="title_background_color" format="reference|integer" />
     </declare-styleable>
 
+    <declare-styleable name="TopBar">
+        <!--中间title的自定义属性-->
+        <attr name="mCenterTitle" format="string"/>
+        <attr name="mCenterTitleSize" format="dimension"/>
+        <attr name="mCenterTitleColor" format="color"/>
+
+        <!--左边图片的自定义属性-->
+        <attr name="mLeftBackground" format="reference"/>
+
+        <!--右边TextView的自定义属性-->
+        <attr name="mRightTitle" format="string"/>
+        <attr name="mRightTitleSize" format="dimension"/>
+        <attr name="mRightTitleColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="XiaoMiStep">
+        <!--背景-->
+        <attr name="backGroundColor" format="color"/>
+        <!--最外层圆-->
+        <attr name="out_circle_color" format="color"/>
+        <!--外层圆上的小圆点颜色-->
+        <attr name="out_dot_color" format="color"/>
+        <!--竖线的颜色-->
+        <attr name="lineColor" format="color"/>
+        <!--圆环的颜色-->
+        <attr name="ringColor" format="color"/>
+        <!--步数颜色-->
+        <attr name="stepNumColor" format="color"/>
+        <!--其他字的颜色-->
+        <attr name="otherTextColor" format="color"/>
+    </declare-styleable>
+
 </resources>

@@ -4,16 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="45dp">
 
-    <!--<com.zx.customview.viewandgroup.view.TopBar
-        android:id="@+id/topBar"
+    <com.zx.customview.viewandgroup.view.TopBar
+        android:id="@+id/topBar1"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        custom:mLeftBackGround="@mipmap/back_icon"
-        custom:mTitle="购物车"
-        custom:mTitleColor="@android:color/white"
-        custom:mTitleSize="5sp"
-        custom:rightTextColor="@android:color/white"
-        custom:rightTitle="编辑"
-        custom:rightTitleSize="5sp"/>-->
+        custom:mLeftBackground="@mipmap/back_icon"
+        custom:mCenterTitle="购物车"
+        custom:mCenterTitleColor="@android:color/white"
+        custom:mCenterTitleSize="5sp"
+        custom:mRightTitleColor="@android:color/white"
+        custom:mRightTitle="编辑"
+        custom:mRightTitleSize="5sp"/>
 
 </LinearLayout>
