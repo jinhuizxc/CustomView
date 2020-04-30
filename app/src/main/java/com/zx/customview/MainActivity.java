@@ -23,7 +23,8 @@ import com.zx.customview.keyboard.InSampleActivity;
 import com.zx.customview.menu_item.MenuItemActivity;
 import com.zx.customview.qqmenu.QQMenuActivity;
 import com.zx.customview.viewandgroup.ViewAndGroupActivity;
-import com.zx.customview.widget.fold.FoldActivity;
+import com.zx.customview.widgets.fold.FoldActivity;
+import com.zx.customview.widgets.fold.SampleOneActivity;
 import com.zx.customview.yzm.pic.PicYzmActivity;
 import com.zx.richeditor.RichEditorWebViewActivity;
 import com.zx.workclockview.WorkClockActivity;
@@ -56,16 +57,15 @@ import butterknife.OnClick;
  * <p>
  * <p>
  * 将此前写的资源整理下，整合资源;
- *
+ * <p>
  * 将module打包上传到jcenter
  * # 将module上传到Jcenter并使用
  * https://www.jianshu.com/p/c49fb91aacfe
- *
+ * <p>
  * 将module打包上传到maven
- *
+ * <p>
  * # android将module打包成aar上传至自己的maven仓库
  * https://www.jianshu.com/p/9ff658ea56f0
- *
  */
 
 public class MainActivity extends AppCompatActivity {
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
             R.id.btn_alipay_home, R.id.btn_animation, R.id.btn_workClock,
             R.id.btn_editor, R.id.btn_viewgroup,
             R.id.btn_viewAndGroup,
-    R.id.btn_ad, R.id.btn_circle, R.id.btn_keyboard, R.id.btn_fold,
+            R.id.btn_ad, R.id.btn_circle, R.id.btn_keyboard, R.id.btn_fold,
             R.id.btn_flow, R.id.btn_img_et})
     public void onViewClicked(View view) {
         switch (view.getId()) {

@@ -140,7 +140,7 @@
                 android:id="@+id/btn_fold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="折叠效果" />
+                android:text="折叠组件" />
 
             <Button
                 android:id="@+id/btn_img_et"

@@ -18,7 +18,12 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".viewandgroup.activity.XiaoMiSetpActivity"></activity>
+        <activity android:name=".widgets.fold.SampleOneActivity"/>
+        <activity android:name=".widgets.fold.two.Test1Activity"></activity>
+        <activity android:name=".widgets.fold.two.Test2Activity" />
+        <activity android:name=".widgets.fold.two.SampleTwoActivity" />
+        <activity android:name=".widgets.fold.FoldActivity" />
+        <activity android:name=".viewandgroup.activity.XiaoMiSetpActivity" />
         <activity android:name=".activity.NewActivity" />
         <activity android:name=".viewandgroup.activity.CustomViewActivity" />
         <activity android:name=".viewandgroup.activity.CustomViewBasicActivity" />
